@@ -1,0 +1,814 @@
+The company's October 2021 (LTM) Revenue was $37.06 million, compared to October 2020 (LTM) Revenue in $18.33 million, a YoY increase of 102.15%.
+
+The company's January 2021 Revenue was $2.39 million, compared to January 2020 Revenue in $1.79 million, a YoY increase of 33.58%.
+
+The company's February 2021 Revenue was $2.51 million, compared to February 2020 Revenue in $1.97 million, a YoY increase of 27.56%.
+
+The company's March 2021 Revenue was $2.62 million, compared to March 2020 Revenue in $1.72 million, a YoY increase of 52.01%.
+
+The company's April 2021 Revenue was $2.91 million, compared to April 2020 Revenue in $1.79 million, a YoY increase of 62.36%.
+
+The company's May 2021 Revenue was $3.17 million, compared to May 2020 Revenue in $1.96 million, a YoY increase of 62.23%.
+
+The company's June 2021 Revenue was $3.43 million, compared to June 2020 Revenue in $1.85 million, a YoY increase of 84.86%.
+
+The company's July 2021 Revenue was $3.62 million, compared to July 2020 Revenue in $1.79 million, a YoY increase of 101.81%.
+
+The company's August 2021 Revenue was $3.82 million, compared to August 2020 Revenue in $1.76 million, a YoY increase of 116.82%.
+
+The company's September 2021 Revenue was $4.03 million, compared to September 2020 Revenue in $1.79 million, a YoY increase of 124.91%.
+
+The company's October 2021 Revenue was $4.29 million, compared to October 2020 Revenue in $1.90 million, a YoY increase of 125.85%.
+
+The company's Q1-2021 Revenue was $7.52 million, compared to Q1-2020 Revenue in $5.48 million, a YoY increase of 37.22%.
+
+The company's Q2-2021 Revenue was $9.51 million, compared to Q2-2020 Revenue in $5.60 million, a YoY increase of 69.76%.
+
+The company's Q3-2021 Revenue was $11.46 million, compared to Q3-2020 Revenue in $5.34 million, a YoY increase of 114.5%.
+
+The company's Revenue increased from $4.03 million in September 2021, to $4.29 million in October 2021, a MoM increase of 6.45%.
+
+The company's Revenue increased from $3.82 million in August 2021, to $4.03 million in September 2021, a MoM increase of 5.47%.
+
+The company's Revenue increased from $3.62 million in July 2021, to $3.82 million in August 2021, a MoM increase of 5.58%.
+
+The company's Revenue increased from $3.43 million in June 2021, to $3.62 million in July 2021, a MoM increase of 5.53%.
+
+The company's Revenue increased from $3.17 million in May 2021, to $3.43 million in June 2021, a MoM increase of 8.05%.
+
+The company's Revenue increased from $2.91 million in April 2021, to $3.17 million in May 2021, a MoM increase of 8.85%.
+
+The company's Revenue increased from $2.62 million in March 2021, to $2.91 million in April 2021, a MoM increase of 11.14%.
+
+The company's Revenue increased from $2.51 million in February 2021, to $2.62 million in March 2021, a MoM increase of 4.41%.
+
+The company's Revenue increased from $2.39 million in January 2021, to $2.51 million in February 2021, a MoM increase of 5.01%.
+
+The company's Revenue increased from $2.23 million in December 2020, to $2.39 million in January 2021, a MoM increase of 7.1%.
+
+The company's Revenue increased from $2.03 million in November 2020, to $2.23 million in December 2020, a MoM increase of 9.82%.
+
+The company's Revenue increased from $1.90 million in October 2020, to $2.03 million in November 2020, a MoM increase of 7.09%.
+
+The company's Revenue increased from $1.79 million in September 2020, to $1.90 million in October 2020, a MoM increase of 6.01%.
+
+The company's Revenue increased from $1.76 million in August 2020, to $1.79 million in September 2020, a MoM increase of 1.68%.
+
+The company's Revenue decreased from $1.79 million in July 2020, to $1.76 million in August 2020, a MoM decrease of -1.72%.
+
+The company's Revenue decreased from $1.85 million in June 2020, to $1.79 million in July 2020, a MoM decrease of -3.34%.
+
+The company's Revenue decreased from $1.96 million in May 2020, to $1.85 million in June 2020, a MoM decrease of -5.17%.
+
+The company's Revenue increased from $1.79 million in April 2020, to $1.96 million in May 2020, a MoM increase of 8.94%.
+
+The company's Revenue increased from $1.72 million in March 2020, to $1.79 million in April 2020, a MoM increase of 4.06%.
+
+The company's Revenue decreased from $1.97 million in February 2020, to $1.72 million in March 2020, a MoM decrease of -12.38%.
+
+The company's Revenue increased from $1.79 million in January 2020, to $1.97 million in February 2020, a MoM increase of 9.96%.
+
+The company's Revenue increased from $9.51 million in Q2-2021, to $11.46 million in Q3-2021, a QoQ increase of 20.5%.
+
+The company's Revenue increased from $7.52 million in Q1-2021, to $9.51 million in Q2-2021, a QoQ increase of 26.44%.
+
+The company's Revenue increased from $6.16 million in Q4-2020, to $7.52 million in Q1-2021, a QoQ increase of 22.06%.
+
+The company's Revenue increased from $5.34 million in Q3-2020, to $6.16 million in Q4-2020, a QoQ increase of 15.34%.
+
+The company's Revenue decreased from $5.60 million in Q2-2020, to $5.34 million in Q3-2020, a QoQ decrease of -4.63%.
+
+The company's Revenue increased from $5.48 million in Q1-2020, to $5.60 million in Q2-2020, a QoQ increase of 2.2%.
+
+The company's Revenue increased from $11.51 million in H2-2020, to $17.04 million in H1-2021, a HoH increase of 48.04%.
+
+The company's Revenue increased from $11.09 million in H1-2020, to $11.51 million in H2-2020, a HoH increase of 3.8%.
+
+The company's October 2021 (LTM) Gross Margin was 80.28%, compared to October 2020 (LTM) Gross Margin in 70.27%, a YoY increase of 14.24%.
+
+The company's January 2021 Gross Margin was 78.01%, compared to January 2020 Gross Margin in 66.59%, a YoY increase of 17.14%.
+
+The company's February 2021 Gross Margin was 79.0%, compared to February 2020 Gross Margin in 69.0%, a YoY increase of 14.5%.
+
+The company's March 2021 Gross Margin was 78.76%, compared to March 2020 Gross Margin in 67.45%, a YoY increase of 16.77%.
+
+The company's April 2021 Gross Margin was 79.77%, compared to April 2020 Gross Margin in 67.69%, a YoY increase of 17.84%.
+
+The company's May 2021 Gross Margin was 80.47%, compared to May 2020 Gross Margin in 67.73%, a YoY increase of 18.8%.
+
+The company's June 2021 Gross Margin was 81.08%, compared to June 2020 Gross Margin in 70.8%, a YoY increase of 14.53%.
+
+The company's July 2021 Gross Margin was 81.45%, compared to July 2020 Gross Margin in 71.42%, a YoY increase of 14.04%.
+
+The company's August 2021 Gross Margin was 81.75%, compared to August 2020 Gross Margin in 72.38%, a YoY increase of 12.94%.
+
+The company's September 2021 Gross Margin was 82.03%, compared to September 2020 Gross Margin in 74.01%, a YoY increase of 10.84%.
+
+The company's October 2021 Gross Margin was 82.42%, compared to October 2020 Gross Margin in 75.59%, a YoY increase of 9.03%.
+
+The company's Q1-2021 Gross Margin was 78.6%, compared to Q1-2020 Gross Margin in 67.73%, a YoY increase of 16.06%.
+
+The company's Q2-2021 Gross Margin was 80.47%, compared to Q2-2020 Gross Margin in 68.73%, a YoY increase of 17.09%.
+
+The company's Q3-2021 Gross Margin was 81.76%, compared to Q3-2020 Gross Margin in 72.61%, a YoY increase of 12.6%.
+
+The company's Gross Margin increased from 82.03% in September 2021, to 82.42% in October 2021, a MoM increase of 0.46%.
+
+The company's Gross Margin increased from 81.75% in August 2021, to 82.03% in September 2021, a MoM increase of 0.35%.
+
+The company's Gross Margin increased from 81.45% in July 2021, to 81.75% in August 2021, a MoM increase of 0.37%.
+
+The company's Gross Margin increased from 81.08% in June 2021, to 81.45% in July 2021, a MoM increase of 0.45%.
+
+The company's Gross Margin increased from 80.47% in May 2021, to 81.08% in June 2021, a MoM increase of 0.77%.
+
+The company's Gross Margin increased from 79.77% in April 2021, to 80.47% in May 2021, a MoM increase of 0.88%.
+
+The company's Gross Margin increased from 78.76% in March 2021, to 79.77% in April 2021, a MoM increase of 1.27%.
+
+The company's Gross Margin decreased from 79.0% in February 2021, to 78.76% in March 2021, a MoM decrease of -0.3%.
+
+The company's Gross Margin increased from 78.01% in January 2021, to 79.0% in February 2021, a MoM increase of 1.28%.
+
+The company's Gross Margin increased from 76.72% in December 2020, to 78.01% in January 2021, a MoM increase of 1.67%.
+
+The company's Gross Margin increased from 76.64% in November 2020, to 76.72% in December 2020, a MoM increase of 0.11%.
+
+The company's Gross Margin increased from 75.59% in October 2020, to 76.64% in November 2020, a MoM increase of 1.39%.
+
+The company's Gross Margin increased from 74.01% in September 2020, to 75.59% in October 2020, a MoM increase of 2.13%.
+
+The company's Gross Margin increased from 72.38% in August 2020, to 74.01% in September 2020, a MoM increase of 2.25%.
+
+The company's Gross Margin increased from 71.42% in July 2020, to 72.38% in August 2020, a MoM increase of 1.34%.
+
+The company's Gross Margin increased from 70.8% in June 2020, to 71.42% in July 2020, a MoM increase of 0.89%.
+
+The company's Gross Margin increased from 67.73% in May 2020, to 70.8% in June 2020, a MoM increase of 4.53%.
+
+The company's Gross Margin increased from 67.69% in April 2020, to 67.73% in May 2020, a MoM increase of 0.06%.
+
+The company's Gross Margin increased from 67.45% in March 2020, to 67.69% in April 2020, a MoM increase of 0.35%.
+
+The company's Gross Margin decreased from 69.0% in February 2020, to 67.45% in March 2020, a MoM decrease of -2.24%.
+
+The company's Gross Margin increased from 66.59% in January 2020, to 69.0% in February 2020, a MoM increase of 3.61%.
+
+The company's Gross Margin increased from 80.47% in Q2-2021, to 81.76% in Q3-2021, a QoQ increase of 1.59%.
+
+The company's Gross Margin increased from 78.6% in Q1-2021, to 80.47% in Q2-2021, a QoQ increase of 2.38%.
+
+The company's Gross Margin increased from 76.35% in Q4-2020, to 78.6% in Q1-2021, a QoQ increase of 2.96%.
+
+The company's Gross Margin increased from 72.61% in Q3-2020, to 76.35% in Q4-2020, a QoQ increase of 5.15%.
+
+The company's Gross Margin increased from 68.73% in Q2-2020, to 72.61% in Q3-2020, a QoQ increase of 5.64%.
+
+The company's Gross Margin increased from 67.73% in Q1-2020, to 68.73% in Q2-2020, a QoQ increase of 1.48%.
+
+The company's Gross Margin increased from 74.61% in H2-2020, to 79.65% in H1-2021, a HoH increase of 6.75%.
+
+The company's Gross Margin increased from 68.23% in H1-2020, to 74.61% in H2-2020, a HoH increase of 9.34%.
+
+The company's October 2021 (LTM) Cost of Goods Sold (COGS) was $7.31 million, compared to October 2020 (LTM) Cost of Goods Sold (COGS) in $5.45 million, a YoY increase of 34.09%.
+
+The company's January 2021 Cost of Goods Sold (COGS) was $525.89 thousand, compared to January 2020 Cost of Goods Sold (COGS) in $598.04 thousand, a YoY decrease of -12.07%.
+
+The company's February 2021 Cost of Goods Sold (COGS) was $527.24 thousand, compared to February 2020 Cost of Goods Sold (COGS) in $610.31 thousand, a YoY decrease of -13.61%.
+
+The company's March 2021 Cost of Goods Sold (COGS) was $556.80 thousand, compared to March 2020 Cost of Goods Sold (COGS) in $561.43 thousand, a YoY decrease of -0.82%.
+
+The company's April 2021 Cost of Goods Sold (COGS) was $589.62 thousand, compared to April 2020 Cost of Goods Sold (COGS) in $579.96 thousand, a YoY increase of 1.67%.
+
+The company's May 2021 Cost of Goods Sold (COGS) was $619.63 thousand, compared to May 2020 Cost of Goods Sold (COGS) in $630.94 thousand, a YoY decrease of -1.79%.
+
+The company's June 2021 Cost of Goods Sold (COGS) was $648.33 thousand, compared to June 2020 Cost of Goods Sold (COGS) in $541.48 thousand, a YoY increase of 19.73%.
+
+The company's July 2021 Cost of Goods Sold (COGS) was $670.93 thousand, compared to July 2020 Cost of Goods Sold (COGS) in $512.14 thousand, a YoY increase of 31.0%.
+
+The company's August 2021 Cost of Goods Sold (COGS) was $696.94 thousand, compared to August 2020 Cost of Goods Sold (COGS) in $486.44 thousand, a YoY increase of 43.27%.
+
+The company's September 2021 Cost of Goods Sold (COGS) was $723.64 thousand, compared to September 2020 Cost of Goods Sold (COGS) in $465.45 thousand, a YoY increase of 55.47%.
+
+The company's October 2021 Cost of Goods Sold (COGS) was $753.99 thousand, compared to October 2020 Cost of Goods Sold (COGS) in $463.47 thousand, a YoY increase of 62.68%.
+
+The company's Q1-2021 Cost of Goods Sold (COGS) was $1.61 million, compared to Q1-2020 Cost of Goods Sold (COGS) in $1.77 million, a YoY decrease of -9.03%.
+
+The company's Q2-2021 Cost of Goods Sold (COGS) was $1.86 million, compared to Q2-2020 Cost of Goods Sold (COGS) in $1.75 million, a YoY increase of 6.0%.
+
+The company's Q3-2021 Cost of Goods Sold (COGS) was $2.09 million, compared to Q3-2020 Cost of Goods Sold (COGS) in $1.46 million, a YoY increase of 42.86%.
+
+The company's Cost of Goods Sold (COGS) increased from $723.64 thousand in September 2021, to $753.99 thousand in October 2021, a MoM increase of 4.19%.
+
+The company's Cost of Goods Sold (COGS) increased from $696.94 thousand in August 2021, to $723.64 thousand in September 2021, a MoM increase of 3.83%.
+
+The company's Cost of Goods Sold (COGS) increased from $670.93 thousand in July 2021, to $696.94 thousand in August 2021, a MoM increase of 3.88%.
+
+The company's Cost of Goods Sold (COGS) increased from $648.33 thousand in June 2021, to $670.93 thousand in July 2021, a MoM increase of 3.49%.
+
+The company's Cost of Goods Sold (COGS) increased from $619.63 thousand in May 2021, to $648.33 thousand in June 2021, a MoM increase of 4.63%.
+
+The company's Cost of Goods Sold (COGS) increased from $589.62 thousand in April 2021, to $619.63 thousand in May 2021, a MoM increase of 5.09%.
+
+The company's Cost of Goods Sold (COGS) increased from $556.80 thousand in March 2021, to $589.62 thousand in April 2021, a MoM increase of 5.89%.
+
+The company's Cost of Goods Sold (COGS) increased from $527.24 thousand in February 2021, to $556.80 thousand in March 2021, a MoM increase of 5.61%.
+
+The company's Cost of Goods Sold (COGS) increased from $525.89 thousand in January 2021, to $527.24 thousand in February 2021, a MoM increase of 0.26%.
+
+The company's Cost of Goods Sold (COGS) increased from $519.71 thousand in December 2020, to $525.89 thousand in January 2021, a MoM increase of 1.19%.
+
+The company's Cost of Goods Sold (COGS) increased from $474.94 thousand in November 2020, to $519.71 thousand in December 2020, a MoM increase of 9.43%.
+
+The company's Cost of Goods Sold (COGS) increased from $463.47 thousand in October 2020, to $474.94 thousand in November 2020, a MoM increase of 2.47%.
+
+The company's Cost of Goods Sold (COGS) decreased from $465.45 thousand in September 2020, to $463.47 thousand in October 2020, a MoM decrease of -0.42%.
+
+The company's Cost of Goods Sold (COGS) decreased from $486.44 thousand in August 2020, to $465.45 thousand in September 2020, a MoM decrease of -4.32%.
+
+The company's Cost of Goods Sold (COGS) decreased from $512.14 thousand in July 2020, to $486.44 thousand in August 2020, a MoM decrease of -5.02%.
+
+The company's Cost of Goods Sold (COGS) decreased from $541.48 thousand in June 2020, to $512.14 thousand in July 2020, a MoM decrease of -5.42%.
+
+The company's Cost of Goods Sold (COGS) decreased from $630.94 thousand in May 2020, to $541.48 thousand in June 2020, a MoM decrease of -14.18%.
+
+The company's Cost of Goods Sold (COGS) increased from $579.96 thousand in April 2020, to $630.94 thousand in May 2020, a MoM increase of 8.79%.
+
+The company's Cost of Goods Sold (COGS) increased from $561.43 thousand in March 2020, to $579.96 thousand in April 2020, a MoM increase of 3.3%.
+
+The company's Cost of Goods Sold (COGS) decreased from $610.31 thousand in February 2020, to $561.43 thousand in March 2020, a MoM decrease of -8.01%.
+
+The company's Cost of Goods Sold (COGS) increased from $598.04 thousand in January 2020, to $610.31 thousand in February 2020, a MoM increase of 2.05%.
+
+The company's Cost of Goods Sold (COGS) increased from $1.86 million in Q2-2021, to $2.09 million in Q3-2021, a QoQ increase of 12.59%.
+
+The company's Cost of Goods Sold (COGS) increased from $1.61 million in Q1-2021, to $1.86 million in Q2-2021, a QoQ increase of 15.38%.
+
+The company's Cost of Goods Sold (COGS) increased from $1.46 million in Q4-2020, to $1.61 million in Q1-2021, a QoQ increase of 10.41%.
+
+The company's Cost of Goods Sold (COGS) decreased from $1.46 million in Q3-2020, to $1.46 million in Q4-2020, a QoQ decrease of -0.4%.
+
+The company's Cost of Goods Sold (COGS) decreased from $1.75 million in Q2-2020, to $1.46 million in Q3-2020, a QoQ decrease of -16.45%.
+
+The company's Cost of Goods Sold (COGS) decreased from $1.77 million in Q1-2020, to $1.75 million in Q2-2020, a QoQ decrease of -0.98%.
+
+The company's Cost of Goods Sold (COGS) increased from $2.92 million in H2-2020, to $3.47 million in H1-2021, a HoH increase of 18.66%.
+
+The company's Cost of Goods Sold (COGS) decreased from $3.52 million in H1-2020, to $2.92 million in H2-2020, a HoH decrease of -17.04%.
+
+The company's October 2021 (LTM) Operating Expenses (OPEX) was $41.86 million, compared to October 2020 (LTM) Operating Expenses (OPEX) in $30.36 million, a YoY increase of 37.85%.
+
+The company's January 2021 Operating Expenses (OPEX) was $2.79 million, compared to January 2020 Operating Expenses (OPEX) in $3.86 million, a YoY decrease of -27.63%.
+
+The company's February 2021 Operating Expenses (OPEX) was $3.79 million, compared to February 2020 Operating Expenses (OPEX) in $3.97 million, a YoY decrease of -4.71%.
+
+The company's March 2021 Operating Expenses (OPEX) was $3.87 million, compared to March 2020 Operating Expenses (OPEX) in $2.78 million, a YoY increase of 39.06%.
+
+The company's April 2021 Operating Expenses (OPEX) was $3.93 million, compared to April 2020 Operating Expenses (OPEX) in $3.30 million, a YoY increase of 19.08%.
+
+The company's May 2021 Operating Expenses (OPEX) was $3.44 million, compared to May 2020 Operating Expenses (OPEX) in $2.72 million, a YoY increase of 26.45%.
+
+The company's June 2021 Operating Expenses (OPEX) was $3.47 million, compared to June 2020 Operating Expenses (OPEX) in $2.66 million, a YoY increase of 30.49%.
+
+The company's July 2021 Operating Expenses (OPEX) was $3.54 million, compared to July 2020 Operating Expenses (OPEX) in $2.61 million, a YoY increase of 35.42%.
+
+The company's August 2021 Operating Expenses (OPEX) was $3.70 million, compared to August 2020 Operating Expenses (OPEX) in $2.66 million, a YoY increase of 38.78%.
+
+The company's September 2021 Operating Expenses (OPEX) was $3.71 million, compared to September 2020 Operating Expenses (OPEX) in $2.81 million, a YoY increase of 31.94%.
+
+The company's October 2021 Operating Expenses (OPEX) was $3.76 million, compared to October 2020 Operating Expenses (OPEX) in $2.98 million, a YoY increase of 26.05%.
+
+The company's Q1-2021 Operating Expenses (OPEX) was $10.45 million, compared to Q1-2020 Operating Expenses (OPEX) in $10.62 million, a YoY decrease of -1.58%.
+
+The company's Q2-2021 Operating Expenses (OPEX) was $10.84 million, compared to Q2-2020 Operating Expenses (OPEX) in $8.68 million, a YoY increase of 24.89%.
+
+The company's Q3-2021 Operating Expenses (OPEX) was $10.95 million, compared to Q3-2020 Operating Expenses (OPEX) in $8.09 million, a YoY increase of 35.32%.
+
+The company's Operating Expenses (OPEX) increased from $3.71 million in September 2021, to $3.76 million in October 2021, a MoM increase of 1.16%.
+
+The company's Operating Expenses (OPEX) increased from $3.70 million in August 2021, to $3.71 million in September 2021, a MoM increase of 0.51%.
+
+The company's Operating Expenses (OPEX) increased from $3.54 million in July 2021, to $3.70 million in August 2021, a MoM increase of 4.49%.
+
+The company's Operating Expenses (OPEX) increased from $3.47 million in June 2021, to $3.54 million in July 2021, a MoM increase of 1.91%.
+
+The company's Operating Expenses (OPEX) increased from $3.44 million in May 2021, to $3.47 million in June 2021, a MoM increase of 0.95%.
+
+The company's Operating Expenses (OPEX) decreased from $3.93 million in April 2021, to $3.44 million in May 2021, a MoM decrease of -12.51%.
+
+The company's Operating Expenses (OPEX) increased from $3.87 million in March 2021, to $3.93 million in April 2021, a MoM increase of 1.6%.
+
+The company's Operating Expenses (OPEX) increased from $3.79 million in February 2021, to $3.87 million in March 2021, a MoM increase of 2.1%.
+
+The company's Operating Expenses (OPEX) increased from $2.79 million in January 2021, to $3.79 million in February 2021, a MoM increase of 35.56%.
+
+The company's Operating Expenses (OPEX) decreased from $2.95 million in December 2020, to $2.79 million in January 2021, a MoM decrease of -5.16%.
+
+The company's Operating Expenses (OPEX) increased from $2.92 million in November 2020, to $2.95 million in December 2020, a MoM increase of 0.85%.
+
+The company's Operating Expenses (OPEX) decreased from $2.98 million in October 2020, to $2.92 million in November 2020, a MoM decrease of -2.0%.
+
+The company's Operating Expenses (OPEX) increased from $2.81 million in September 2020, to $2.98 million in October 2020, a MoM increase of 5.89%.
+
+The company's Operating Expenses (OPEX) increased from $2.66 million in August 2020, to $2.81 million in September 2020, a MoM increase of 5.72%.
+
+The company's Operating Expenses (OPEX) increased from $2.61 million in July 2020, to $2.66 million in August 2020, a MoM increase of 1.96%.
+
+The company's Operating Expenses (OPEX) decreased from $2.66 million in June 2020, to $2.61 million in July 2020, a MoM decrease of -1.81%.
+
+The company's Operating Expenses (OPEX) decreased from $2.72 million in May 2020, to $2.66 million in June 2020, a MoM decrease of -2.17%.
+
+The company's Operating Expenses (OPEX) decreased from $3.30 million in April 2020, to $2.72 million in May 2020, a MoM decrease of -17.61%.
+
+The company's Operating Expenses (OPEX) increased from $2.78 million in March 2020, to $3.30 million in April 2020, a MoM increase of 18.65%.
+
+The company's Operating Expenses (OPEX) decreased from $3.97 million in February 2020, to $2.78 million in March 2020, a MoM decrease of -30.04%.
+
+The company's Operating Expenses (OPEX) increased from $3.86 million in January 2020, to $3.97 million in February 2020, a MoM increase of 2.95%.
+
+The company's Operating Expenses (OPEX) increased from $10.84 million in Q2-2021, to $10.95 million in Q3-2021, a QoQ increase of 1.01%.
+
+The company's Operating Expenses (OPEX) increased from $10.45 million in Q1-2021, to $10.84 million in Q2-2021, a QoQ increase of 3.71%.
+
+The company's Operating Expenses (OPEX) increased from $8.85 million in Q4-2020, to $10.45 million in Q1-2021, a QoQ increase of 18.09%.
+
+The company's Operating Expenses (OPEX) increased from $8.09 million in Q3-2020, to $8.85 million in Q4-2020, a QoQ increase of 9.39%.
+
+The company's Operating Expenses (OPEX) decreased from $8.68 million in Q2-2020, to $8.09 million in Q3-2020, a QoQ decrease of -6.78%.
+
+The company's Operating Expenses (OPEX) decreased from $10.62 million in Q1-2020, to $8.68 million in Q2-2020, a QoQ decrease of -18.27%.
+
+The company's Operating Expenses (OPEX) increased from $16.94 million in H2-2020, to $21.29 million in H1-2021, a HoH increase of 25.68%.
+
+The company's Operating Expenses (OPEX) decreased from $19.29 million in H1-2020, to $16.94 million in H2-2020, a HoH decrease of -12.22%.
+
+The company's October 2021 (LTM) R&D Expenses was $13.95 million, compared to October 2020 (LTM) R&D Expenses in $10.12 million, a YoY increase of 37.85%.
+
+The company's January 2021 R&D Expenses was $931.34 thousand, compared to January 2020 R&D Expenses in $1.29 million, a YoY decrease of -27.63%.
+
+The company's February 2021 R&D Expenses was $1.26 million, compared to February 2020 R&D Expenses in $1.32 million, a YoY decrease of -4.71%.
+
+The company's March 2021 R&D Expenses was $1.29 million, compared to March 2020 R&D Expenses in $926.98 thousand, a YoY increase of 39.06%.
+
+The company's April 2021 R&D Expenses was $1.31 million, compared to April 2020 R&D Expenses in $1.10 million, a YoY increase of 19.08%.
+
+The company's May 2021 R&D Expenses was $1.15 million, compared to May 2020 R&D Expenses in $906.13 thousand, a YoY increase of 26.45%.
+
+The company's June 2021 R&D Expenses was $1.16 million, compared to June 2020 R&D Expenses in $886.48 thousand, a YoY increase of 30.49%.
+
+The company's July 2021 R&D Expenses was $1.18 million, compared to July 2020 R&D Expenses in $870.43 thousand, a YoY increase of 35.42%.
+
+The company's August 2021 R&D Expenses was $1.23 million, compared to August 2020 R&D Expenses in $887.53 thousand, a YoY increase of 38.78%.
+
+The company's September 2021 R&D Expenses was $1.24 million, compared to September 2020 R&D Expenses in $938.31 thousand, a YoY increase of 31.94%.
+
+The company's October 2021 R&D Expenses was $1.25 million, compared to October 2020 R&D Expenses in $993.61 thousand, a YoY increase of 26.05%.
+
+The company's Q1-2021 R&D Expenses was $3.48 million, compared to Q1-2020 R&D Expenses in $3.54 million, a YoY decrease of -1.58%.
+
+The company's Q2-2021 R&D Expenses was $3.61 million, compared to Q2-2020 R&D Expenses in $2.89 million, a YoY increase of 24.89%.
+
+The company's Q3-2021 R&D Expenses was $3.65 million, compared to Q3-2020 R&D Expenses in $2.70 million, a YoY increase of 35.32%.
+
+The company's R&D Expenses increased from $1.24 million in September 2021, to $1.25 million in October 2021, a MoM increase of 1.16%.
+
+The company's R&D Expenses increased from $1.23 million in August 2021, to $1.24 million in September 2021, a MoM increase of 0.51%.
+
+The company's R&D Expenses increased from $1.18 million in July 2021, to $1.23 million in August 2021, a MoM increase of 4.49%.
+
+The company's R&D Expenses increased from $1.16 million in June 2021, to $1.18 million in July 2021, a MoM increase of 1.91%.
+
+The company's R&D Expenses increased from $1.15 million in May 2021, to $1.16 million in June 2021, a MoM increase of 0.95%.
+
+The company's R&D Expenses decreased from $1.31 million in April 2021, to $1.15 million in May 2021, a MoM decrease of -12.51%.
+
+The company's R&D Expenses increased from $1.29 million in March 2021, to $1.31 million in April 2021, a MoM increase of 1.6%.
+
+The company's R&D Expenses increased from $1.26 million in February 2021, to $1.29 million in March 2021, a MoM increase of 2.1%.
+
+The company's R&D Expenses increased from $931.34 thousand in January 2021, to $1.26 million in February 2021, a MoM increase of 35.56%.
+
+The company's R&D Expenses decreased from $982.01 thousand in December 2020, to $931.34 thousand in January 2021, a MoM decrease of -5.16%.
+
+The company's R&D Expenses increased from $973.76 thousand in November 2020, to $982.01 thousand in December 2020, a MoM increase of 0.85%.
+
+The company's R&D Expenses decreased from $993.61 thousand in October 2020, to $973.76 thousand in November 2020, a MoM decrease of -2.0%.
+
+The company's R&D Expenses increased from $938.31 thousand in September 2020, to $993.61 thousand in October 2020, a MoM increase of 5.89%.
+
+The company's R&D Expenses increased from $887.53 thousand in August 2020, to $938.31 thousand in September 2020, a MoM increase of 5.72%.
+
+The company's R&D Expenses increased from $870.43 thousand in July 2020, to $887.53 thousand in August 2020, a MoM increase of 1.96%.
+
+The company's R&D Expenses decreased from $886.48 thousand in June 2020, to $870.43 thousand in July 2020, a MoM decrease of -1.81%.
+
+The company's R&D Expenses decreased from $906.13 thousand in May 2020, to $886.48 thousand in June 2020, a MoM decrease of -2.17%.
+
+The company's R&D Expenses decreased from $1.10 million in April 2020, to $906.13 thousand in May 2020, a MoM decrease of -17.61%.
+
+The company's R&D Expenses increased from $926.98 thousand in March 2020, to $1.10 million in April 2020, a MoM increase of 18.65%.
+
+The company's R&D Expenses decreased from $1.32 million in February 2020, to $926.98 thousand in March 2020, a MoM decrease of -30.04%.
+
+The company's R&D Expenses increased from $1.29 million in January 2020, to $1.32 million in February 2020, a MoM increase of 2.95%.
+
+The company's R&D Expenses increased from $3.61 million in Q2-2021, to $3.65 million in Q3-2021, a QoQ increase of 1.01%.
+
+The company's R&D Expenses increased from $3.48 million in Q1-2021, to $3.61 million in Q2-2021, a QoQ increase of 3.71%.
+
+The company's R&D Expenses increased from $2.95 million in Q4-2020, to $3.48 million in Q1-2021, a QoQ increase of 18.09%.
+
+The company's R&D Expenses increased from $2.70 million in Q3-2020, to $2.95 million in Q4-2020, a QoQ increase of 9.39%.
+
+The company's R&D Expenses decreased from $2.89 million in Q2-2020, to $2.70 million in Q3-2020, a QoQ decrease of -6.78%.
+
+The company's R&D Expenses decreased from $3.54 million in Q1-2020, to $2.89 million in Q2-2020, a QoQ decrease of -18.27%.
+
+The company's R&D Expenses increased from $5.65 million in H2-2020, to $7.10 million in H1-2021, a HoH increase of 25.68%.
+
+The company's R&D Expenses decreased from $6.43 million in H1-2020, to $5.65 million in H2-2020, a HoH decrease of -12.22%.
+
+The company's October 2021 (LTM) S&M Expenses - CAC was $-1.41 million, compared to October 2020 (LTM) S&M Expenses - CAC in $3.67 million, a YoY decrease of -138.5%.
+
+The company's January 2021 S&M Expenses - CAC was $-126.21 thousand, compared to January 2020 S&M Expenses - CAC in $511.38 thousand, a YoY decrease of -124.68%.
+
+The company's January 2020 S&M Expenses - CAC was $511.38 thousand, compared to January 2019 S&M Expenses - CAC in $943.13 thousand, a YoY decrease of -45.78%.
+
+The company's January 2019 S&M Expenses - CAC was $943.13 thousand, compared to January 2018 S&M Expenses - CAC in $463.02 thousand, a YoY increase of 103.69%.
+
+The company's February 2021 S&M Expenses - CAC was $-189.08 thousand, compared to February 2020 S&M Expenses - CAC in $-465.38 thousand, a YoY increase of -59.37%.
+
+The company's February 2020 S&M Expenses - CAC was $-465.38 thousand, compared to February 2019 S&M Expenses - CAC in $792.24 thousand, a YoY decrease of -158.74%.
+
+The company's February 2019 S&M Expenses - CAC was $792.24 thousand, compared to February 2018 S&M Expenses - CAC in $398.09 thousand, a YoY increase of 99.01%.
+
+The company's March 2021 S&M Expenses - CAC was $122.27 thousand, compared to March 2020 S&M Expenses - CAC in $644.58 thousand, a YoY decrease of -81.03%.
+
+The company's March 2020 S&M Expenses - CAC was $644.58 thousand, compared to March 2019 S&M Expenses - CAC in $1.13 million, a YoY decrease of -42.94%.
+
+The company's March 2019 S&M Expenses - CAC was $1.13 million, compared to March 2018 S&M Expenses - CAC in $523.32 thousand, a YoY increase of 115.87%.
+
+The company's April 2021 S&M Expenses - CAC was $69.49 thousand, compared to April 2020 S&M Expenses - CAC in $-349.04 thousand, a YoY increase of -119.91%.
+
+The company's April 2020 S&M Expenses - CAC was $-349.04 thousand, compared to April 2019 S&M Expenses - CAC in $1.37 million, a YoY decrease of -125.54%.
+
+The company's April 2019 S&M Expenses - CAC was $1.37 million, compared to April 2018 S&M Expenses - CAC in $500.59 thousand, a YoY increase of 172.99%.
+
+The company's May 2021 S&M Expenses - CAC was $69.18 thousand, compared to May 2020 S&M Expenses - CAC in $102.76 thousand, a YoY decrease of -32.68%.
+
+The company's May 2020 S&M Expenses - CAC was $102.76 thousand, compared to May 2019 S&M Expenses - CAC in $1.34 million, a YoY decrease of -92.34%.
+
+The company's May 2019 S&M Expenses - CAC was $1.34 million, compared to May 2018 S&M Expenses - CAC in $546.31 thousand, a YoY increase of 145.62%.
+
+The company's June 2021 S&M Expenses - CAC was $152.98 thousand, compared to June 2020 S&M Expenses - CAC in $-205.49 thousand, a YoY increase of -174.45%.
+
+The company's June 2020 S&M Expenses - CAC was $-205.49 thousand, compared to June 2019 S&M Expenses - CAC in $1.73 million, a YoY decrease of -111.86%.
+
+The company's June 2019 S&M Expenses - CAC was $1.73 million, compared to June 2018 S&M Expenses - CAC in $569.84 thousand, a YoY increase of 204.1%.
+
+The company's July 2021 S&M Expenses - CAC was $88.72 thousand, compared to July 2020 S&M Expenses - CAC in $-52.46 thousand, a YoY increase of -269.11%.
+
+The company's July 2020 S&M Expenses - CAC was $-52.46 thousand, compared to July 2019 S&M Expenses - CAC in $1.44 million, a YoY decrease of -103.64%.
+
+The company's July 2019 S&M Expenses - CAC was $1.44 million, compared to July 2018 S&M Expenses - CAC in $571.06 thousand, a YoY increase of 152.32%.
+
+The company's August 2021 S&M Expenses - CAC was $185.37 thousand, compared to August 2020 S&M Expenses - CAC in $938.58 thousand, a YoY decrease of -80.25%.
+
+The company's August 2020 S&M Expenses - CAC was $938.58 thousand, compared to August 2019 S&M Expenses - CAC in $1.50 million, a YoY decrease of -37.26%.
+
+The company's August 2019 S&M Expenses - CAC was $1.50 million, compared to August 2018 S&M Expenses - CAC in $637.89 thousand, a YoY increase of 134.54%.
+
+The company's September 2021 S&M Expenses - CAC was $210.26 thousand, compared to September 2020 S&M Expenses - CAC in $634.11 thousand, a YoY decrease of -66.84%.
+
+The company's September 2020 S&M Expenses - CAC was $634.11 thousand, compared to September 2019 S&M Expenses - CAC in $1.23 million, a YoY decrease of -48.39%.
+
+The company's September 2019 S&M Expenses - CAC was $1.23 million, compared to September 2018 S&M Expenses - CAC in $656.33 thousand, a YoY increase of 87.21%.
+
+The company's October 2021 S&M Expenses - CAC was $-1.25 million, compared to October 2020 S&M Expenses - CAC in $-228.90 thousand, a YoY decrease of 447.14%.
+
+The company's October 2020 S&M Expenses - CAC was $-228.90 thousand, compared to October 2019 S&M Expenses - CAC in $1.94 million, a YoY decrease of -111.82%.
+
+The company's October 2019 S&M Expenses - CAC was $1.94 million, compared to October 2018 S&M Expenses - CAC in $749.34 thousand, a YoY increase of 158.5%.
+
+The company's November 2020 S&M Expenses - CAC was $-241.70 thousand, compared to November 2019 S&M Expenses - CAC in $1.61 million, a YoY decrease of -115.06%.
+
+The company's November 2019 S&M Expenses - CAC was $1.61 million, compared to November 2018 S&M Expenses - CAC in $780.80 thousand, a YoY increase of 105.57%.
+
+The company's December 2020 S&M Expenses - CAC was $-500.92 thousand, compared to December 2019 S&M Expenses - CAC in $532.20 thousand, a YoY decrease of -194.12%.
+
+The company's December 2019 S&M Expenses - CAC was $532.20 thousand, compared to December 2018 S&M Expenses - CAC in $697.39 thousand, a YoY decrease of -23.69%.
+
+The company's Q1-2021 S&M Expenses - CAC was $-193.02 thousand, compared to Q1-2020 S&M Expenses - CAC in $690.58 thousand, a YoY decrease of -127.95%.
+
+The company's Q2-2021 S&M Expenses - CAC was $291.64 thousand, compared to Q2-2020 S&M Expenses - CAC in $-451.77 thousand, a YoY increase of -164.56%.
+
+The company's Q3-2021 S&M Expenses - CAC was $484.35 thousand, compared to Q3-2020 S&M Expenses - CAC in $1.52 million, a YoY decrease of -68.14%.
+
+The company's S&M Expenses - CAC decreased from $210.26 thousand in September 2021, to $-1.25 million in October 2021, a MoM decrease of -695.63%.
+
+The company's S&M Expenses - CAC increased from $185.37 thousand in August 2021, to $210.26 thousand in September 2021, a MoM increase of 13.43%.
+
+The company's S&M Expenses - CAC increased from $88.72 thousand in July 2021, to $185.37 thousand in August 2021, a MoM increase of 108.94%.
+
+The company's S&M Expenses - CAC decreased from $152.98 thousand in June 2021, to $88.72 thousand in July 2021, a MoM decrease of -42.01%.
+
+The company's S&M Expenses - CAC increased from $69.18 thousand in May 2021, to $152.98 thousand in June 2021, a MoM increase of 121.13%.
+
+The company's S&M Expenses - CAC decreased from $69.49 thousand in April 2021, to $69.18 thousand in May 2021, a MoM decrease of -0.44%.
+
+The company's S&M Expenses - CAC decreased from $122.27 thousand in March 2021, to $69.49 thousand in April 2021, a MoM decrease of -43.17%.
+
+The company's S&M Expenses - CAC increased from $-189.08 thousand in February 2021, to $122.27 thousand in March 2021, a MoM increase of -164.66%.
+
+The company's S&M Expenses - CAC decreased from $-126.21 thousand in January 2021, to $-189.08 thousand in February 2021, a MoM decrease of 49.81%.
+
+The company's S&M Expenses - CAC increased from $-500.92 thousand in December 2020, to $-126.21 thousand in January 2021, a MoM increase of -74.8%.
+
+The company's S&M Expenses - CAC decreased from $-241.70 thousand in November 2020, to $-500.92 thousand in December 2020, a MoM decrease of 107.25%.
+
+The company's S&M Expenses - CAC decreased from $-228.90 thousand in October 2020, to $-241.70 thousand in November 2020, a MoM decrease of 5.59%.
+
+The company's S&M Expenses - CAC decreased from $634.11 thousand in September 2020, to $-228.90 thousand in October 2020, a MoM decrease of -136.1%.
+
+The company's S&M Expenses - CAC decreased from $938.58 thousand in August 2020, to $634.11 thousand in September 2020, a MoM decrease of -32.44%.
+
+The company's S&M Expenses - CAC increased from $-52.46 thousand in July 2020, to $938.58 thousand in August 2020, a MoM increase of -1889.04%.
+
+The company's S&M Expenses - CAC increased from $-205.49 thousand in June 2020, to $-52.46 thousand in July 2020, a MoM increase of -74.47%.
+
+The company's S&M Expenses - CAC decreased from $102.76 thousand in May 2020, to $-205.49 thousand in June 2020, a MoM decrease of -299.96%.
+
+The company's S&M Expenses - CAC increased from $-349.04 thousand in April 2020, to $102.76 thousand in May 2020, a MoM increase of -129.44%.
+
+The company's S&M Expenses - CAC decreased from $644.58 thousand in March 2020, to $-349.04 thousand in April 2020, a MoM decrease of -154.15%.
+
+The company's S&M Expenses - CAC increased from $-465.38 thousand in February 2020, to $644.58 thousand in March 2020, a MoM increase of -238.51%.
+
+The company's S&M Expenses - CAC decreased from $511.38 thousand in January 2020, to $-465.38 thousand in February 2020, a MoM decrease of -191.0%.
+
+The company's S&M Expenses - CAC decreased from $532.20 thousand in December 2019, to $511.38 thousand in January 2020, a MoM decrease of -3.91%.
+
+The company's S&M Expenses - CAC decreased from $1.61 million in November 2019, to $532.20 thousand in December 2019, a MoM decrease of -66.84%.
+
+The company's S&M Expenses - CAC decreased from $1.94 million in October 2019, to $1.61 million in November 2019, a MoM decrease of -17.14%.
+
+The company's S&M Expenses - CAC increased from $1.23 million in September 2019, to $1.94 million in October 2019, a MoM increase of 57.65%.
+
+The company's S&M Expenses - CAC decreased from $1.50 million in August 2019, to $1.23 million in September 2019, a MoM decrease of -17.87%.
+
+The company's S&M Expenses - CAC increased from $1.44 million in July 2019, to $1.50 million in August 2019, a MoM increase of 3.83%.
+
+The company's S&M Expenses - CAC decreased from $1.73 million in June 2019, to $1.44 million in July 2019, a MoM decrease of -16.85%.
+
+The company's S&M Expenses - CAC increased from $1.34 million in May 2019, to $1.73 million in June 2019, a MoM increase of 29.14%.
+
+The company's S&M Expenses - CAC decreased from $1.37 million in April 2019, to $1.34 million in May 2019, a MoM decrease of -1.81%.
+
+The company's S&M Expenses - CAC increased from $1.13 million in March 2019, to $1.37 million in April 2019, a MoM increase of 20.97%.
+
+The company's S&M Expenses - CAC increased from $792.24 thousand in February 2019, to $1.13 million in March 2019, a MoM increase of 42.59%.
+
+The company's S&M Expenses - CAC decreased from $943.13 thousand in January 2019, to $792.24 thousand in February 2019, a MoM decrease of -16.0%.
+
+The company's S&M Expenses - CAC increased from $697.39 thousand in December 2018, to $943.13 thousand in January 2019, a MoM increase of 35.24%.
+
+The company's S&M Expenses - CAC decreased from $780.80 thousand in November 2018, to $697.39 thousand in December 2018, a MoM decrease of -10.68%.
+
+The company's S&M Expenses - CAC increased from $749.34 thousand in October 2018, to $780.80 thousand in November 2018, a MoM increase of 4.2%.
+
+The company's S&M Expenses - CAC increased from $656.33 thousand in September 2018, to $749.34 thousand in October 2018, a MoM increase of 14.17%.
+
+The company's S&M Expenses - CAC increased from $637.89 thousand in August 2018, to $656.33 thousand in September 2018, a MoM increase of 2.89%.
+
+The company's S&M Expenses - CAC increased from $571.06 thousand in July 2018, to $637.89 thousand in August 2018, a MoM increase of 11.7%.
+
+The company's S&M Expenses - CAC increased from $569.84 thousand in June 2018, to $571.06 thousand in July 2018, a MoM increase of 0.21%.
+
+The company's S&M Expenses - CAC increased from $546.31 thousand in May 2018, to $569.84 thousand in June 2018, a MoM increase of 4.31%.
+
+The company's S&M Expenses - CAC increased from $500.59 thousand in April 2018, to $546.31 thousand in May 2018, a MoM increase of 9.13%.
+
+The company's S&M Expenses - CAC decreased from $523.32 thousand in March 2018, to $500.59 thousand in April 2018, a MoM decrease of -4.34%.
+
+The company's S&M Expenses - CAC increased from $398.09 thousand in February 2018, to $523.32 thousand in March 2018, a MoM increase of 31.46%.
+
+The company's S&M Expenses - CAC decreased from $463.02 thousand in January 2018, to $398.09 thousand in February 2018, a MoM decrease of -14.02%.
+
+The company's S&M Expenses - CAC increased from $291.64 thousand in Q2-2021, to $484.35 thousand in Q3-2021, a QoQ increase of 66.08%.
+
+The company's S&M Expenses - CAC increased from $-193.02 thousand in Q1-2021, to $291.64 thousand in Q2-2021, a QoQ increase of -251.09%.
+
+The company's S&M Expenses - CAC increased from $-971.52 thousand in Q4-2020, to $-193.02 thousand in Q1-2021, a QoQ increase of -80.13%.
+
+The company's S&M Expenses - CAC decreased from $1.52 million in Q3-2020, to $-971.52 thousand in Q4-2020, a QoQ decrease of -163.91%.
+
+The company's S&M Expenses - CAC increased from $-451.77 thousand in Q2-2020, to $1.52 million in Q3-2020, a QoQ increase of -436.51%.
+
+The company's S&M Expenses - CAC decreased from $690.58 thousand in Q1-2020, to $-451.77 thousand in Q2-2020, a QoQ decrease of -165.42%.
+
+The company's S&M Expenses - CAC decreased from $548.71 thousand in H2-2020, to $98.62 thousand in H1-2021, a HoH decrease of -82.03%.
+
+The company's S&M Expenses - CAC increased from $238.82 thousand in H1-2020, to $548.71 thousand in H2-2020, a HoH increase of 129.76%.
+
+The company's October 2021 (LTM) S&M Expenses - non CAC was $13.95 million, compared to October 2020 (LTM) S&M Expenses - non CAC in $10.12 million, a YoY increase of 37.85%.
+
+The company's January 2021 S&M Expenses - non CAC was $931.34 thousand, compared to January 2020 S&M Expenses - non CAC in $1.29 million, a YoY decrease of -27.63%.
+
+The company's February 2021 S&M Expenses - non CAC was $1.26 million, compared to February 2020 S&M Expenses - non CAC in $1.32 million, a YoY decrease of -4.71%.
+
+The company's March 2021 S&M Expenses - non CAC was $1.29 million, compared to March 2020 S&M Expenses - non CAC in $926.98 thousand, a YoY increase of 39.06%.
+
+The company's April 2021 S&M Expenses - non CAC was $1.31 million, compared to April 2020 S&M Expenses - non CAC in $1.10 million, a YoY increase of 19.08%.
+
+The company's May 2021 S&M Expenses - non CAC was $1.15 million, compared to May 2020 S&M Expenses - non CAC in $906.13 thousand, a YoY increase of 26.45%.
+
+The company's June 2021 S&M Expenses - non CAC was $1.16 million, compared to June 2020 S&M Expenses - non CAC in $886.48 thousand, a YoY increase of 30.49%.
+
+The company's July 2021 S&M Expenses - non CAC was $1.18 million, compared to July 2020 S&M Expenses - non CAC in $870.43 thousand, a YoY increase of 35.42%.
+
+The company's August 2021 S&M Expenses - non CAC was $1.23 million, compared to August 2020 S&M Expenses - non CAC in $887.53 thousand, a YoY increase of 38.78%.
+
+The company's September 2021 S&M Expenses - non CAC was $1.24 million, compared to September 2020 S&M Expenses - non CAC in $938.31 thousand, a YoY increase of 31.94%.
+
+The company's October 2021 S&M Expenses - non CAC was $1.25 million, compared to October 2020 S&M Expenses - non CAC in $993.61 thousand, a YoY increase of 26.05%.
+
+The company's Q1-2021 S&M Expenses - non CAC was $3.48 million, compared to Q1-2020 S&M Expenses - non CAC in $3.54 million, a YoY decrease of -1.58%.
+
+The company's Q2-2021 S&M Expenses - non CAC was $3.61 million, compared to Q2-2020 S&M Expenses - non CAC in $2.89 million, a YoY increase of 24.89%.
+
+The company's Q3-2021 S&M Expenses - non CAC was $3.65 million, compared to Q3-2020 S&M Expenses - non CAC in $2.70 million, a YoY increase of 35.32%.
+
+The company's S&M Expenses - non CAC increased from $1.24 million in September 2021, to $1.25 million in October 2021, a MoM increase of 1.16%.
+
+The company's S&M Expenses - non CAC increased from $1.23 million in August 2021, to $1.24 million in September 2021, a MoM increase of 0.51%.
+
+The company's S&M Expenses - non CAC increased from $1.18 million in July 2021, to $1.23 million in August 2021, a MoM increase of 4.49%.
+
+The company's S&M Expenses - non CAC increased from $1.16 million in June 2021, to $1.18 million in July 2021, a MoM increase of 1.91%.
+
+The company's S&M Expenses - non CAC increased from $1.15 million in May 2021, to $1.16 million in June 2021, a MoM increase of 0.95%.
+
+The company's S&M Expenses - non CAC decreased from $1.31 million in April 2021, to $1.15 million in May 2021, a MoM decrease of -12.51%.
+
+The company's S&M Expenses - non CAC increased from $1.29 million in March 2021, to $1.31 million in April 2021, a MoM increase of 1.6%.
+
+The company's S&M Expenses - non CAC increased from $1.26 million in February 2021, to $1.29 million in March 2021, a MoM increase of 2.1%.
+
+The company's S&M Expenses - non CAC increased from $931.34 thousand in January 2021, to $1.26 million in February 2021, a MoM increase of 35.56%.
+
+The company's S&M Expenses - non CAC decreased from $982.01 thousand in December 2020, to $931.34 thousand in January 2021, a MoM decrease of -5.16%.
+
+The company's S&M Expenses - non CAC increased from $973.76 thousand in November 2020, to $982.01 thousand in December 2020, a MoM increase of 0.85%.
+
+The company's S&M Expenses - non CAC decreased from $993.61 thousand in October 2020, to $973.76 thousand in November 2020, a MoM decrease of -2.0%.
+
+The company's S&M Expenses - non CAC increased from $938.31 thousand in September 2020, to $993.61 thousand in October 2020, a MoM increase of 5.89%.
+
+The company's S&M Expenses - non CAC increased from $887.53 thousand in August 2020, to $938.31 thousand in September 2020, a MoM increase of 5.72%.
+
+The company's S&M Expenses - non CAC increased from $870.43 thousand in July 2020, to $887.53 thousand in August 2020, a MoM increase of 1.96%.
+
+The company's S&M Expenses - non CAC decreased from $886.48 thousand in June 2020, to $870.43 thousand in July 2020, a MoM decrease of -1.81%.
+
+The company's S&M Expenses - non CAC decreased from $906.13 thousand in May 2020, to $886.48 thousand in June 2020, a MoM decrease of -2.17%.
+
+The company's S&M Expenses - non CAC decreased from $1.10 million in April 2020, to $906.13 thousand in May 2020, a MoM decrease of -17.61%.
+
+The company's S&M Expenses - non CAC increased from $926.98 thousand in March 2020, to $1.10 million in April 2020, a MoM increase of 18.65%.
+
+The company's S&M Expenses - non CAC decreased from $1.32 million in February 2020, to $926.98 thousand in March 2020, a MoM decrease of -30.04%.
+
+The company's S&M Expenses - non CAC increased from $1.29 million in January 2020, to $1.32 million in February 2020, a MoM increase of 2.95%.
+
+The company's S&M Expenses - non CAC increased from $3.61 million in Q2-2021, to $3.65 million in Q3-2021, a QoQ increase of 1.01%.
+
+The company's S&M Expenses - non CAC increased from $3.48 million in Q1-2021, to $3.61 million in Q2-2021, a QoQ increase of 3.71%.
+
+The company's S&M Expenses - non CAC increased from $2.95 million in Q4-2020, to $3.48 million in Q1-2021, a QoQ increase of 18.09%.
+
+The company's S&M Expenses - non CAC increased from $2.70 million in Q3-2020, to $2.95 million in Q4-2020, a QoQ increase of 9.39%.
+
+The company's S&M Expenses - non CAC decreased from $2.89 million in Q2-2020, to $2.70 million in Q3-2020, a QoQ decrease of -6.78%.
+
+The company's S&M Expenses - non CAC decreased from $3.54 million in Q1-2020, to $2.89 million in Q2-2020, a QoQ decrease of -18.27%.
+
+The company's S&M Expenses - non CAC increased from $5.65 million in H2-2020, to $7.10 million in H1-2021, a HoH increase of 25.68%.
+
+The company's S&M Expenses - non CAC decreased from $6.43 million in H1-2020, to $5.65 million in H2-2020, a HoH decrease of -12.22%.
+
+The company's October 2021 (LTM) G&A Expenses was $13.95 million, compared to October 2020 (LTM) G&A Expenses in $10.12 million, a YoY increase of 37.85%.
+
+The company's January 2021 G&A Expenses was $931.34 thousand, compared to January 2020 G&A Expenses in $1.29 million, a YoY decrease of -27.63%.
+
+The company's February 2021 G&A Expenses was $1.26 million, compared to February 2020 G&A Expenses in $1.32 million, a YoY decrease of -4.71%.
+
+The company's March 2021 G&A Expenses was $1.29 million, compared to March 2020 G&A Expenses in $926.98 thousand, a YoY increase of 39.06%.
+
+The company's April 2021 G&A Expenses was $1.31 million, compared to April 2020 G&A Expenses in $1.10 million, a YoY increase of 19.08%.
+
+The company's May 2021 G&A Expenses was $1.15 million, compared to May 2020 G&A Expenses in $906.13 thousand, a YoY increase of 26.45%.
+
+The company's June 2021 G&A Expenses was $1.16 million, compared to June 2020 G&A Expenses in $886.48 thousand, a YoY increase of 30.49%.
+
+The company's July 2021 G&A Expenses was $1.18 million, compared to July 2020 G&A Expenses in $870.43 thousand, a YoY increase of 35.42%.
+
+The company's August 2021 G&A Expenses was $1.23 million, compared to August 2020 G&A Expenses in $887.53 thousand, a YoY increase of 38.78%.
+
+The company's September 2021 G&A Expenses was $1.24 million, compared to September 2020 G&A Expenses in $938.31 thousand, a YoY increase of 31.94%.
+
+The company's October 2021 G&A Expenses was $1.25 million, compared to October 2020 G&A Expenses in $993.61 thousand, a YoY increase of 26.05%.
+
+The company's Q1-2021 G&A Expenses was $3.48 million, compared to Q1-2020 G&A Expenses in $3.54 million, a YoY decrease of -1.58%.
+
+The company's Q2-2021 G&A Expenses was $3.61 million, compared to Q2-2020 G&A Expenses in $2.89 million, a YoY increase of 24.89%.
+
+The company's Q3-2021 G&A Expenses was $3.65 million, compared to Q3-2020 G&A Expenses in $2.70 million, a YoY increase of 35.32%.
+
+The company's G&A Expenses increased from $1.24 million in September 2021, to $1.25 million in October 2021, a MoM increase of 1.16%.
+
+The company's G&A Expenses increased from $1.23 million in August 2021, to $1.24 million in September 2021, a MoM increase of 0.51%.
+
+The company's G&A Expenses increased from $1.18 million in July 2021, to $1.23 million in August 2021, a MoM increase of 4.49%.
+
+The company's G&A Expenses increased from $1.16 million in June 2021, to $1.18 million in July 2021, a MoM increase of 1.91%.
+
+The company's G&A Expenses increased from $1.15 million in May 2021, to $1.16 million in June 2021, a MoM increase of 0.95%.
+
+The company's G&A Expenses decreased from $1.31 million in April 2021, to $1.15 million in May 2021, a MoM decrease of -12.51%.
+
+The company's G&A Expenses increased from $1.29 million in March 2021, to $1.31 million in April 2021, a MoM increase of 1.6%.
+
+The company's G&A Expenses increased from $1.26 million in February 2021, to $1.29 million in March 2021, a MoM increase of 2.1%.
+
+The company's G&A Expenses increased from $931.34 thousand in January 2021, to $1.26 million in February 2021, a MoM increase of 35.56%.
+
+The company's G&A Expenses decreased from $982.01 thousand in December 2020, to $931.34 thousand in January 2021, a MoM decrease of -5.16%.
+
+The company's G&A Expenses increased from $973.76 thousand in November 2020, to $982.01 thousand in December 2020, a MoM increase of 0.85%.
+
+The company's G&A Expenses decreased from $993.61 thousand in October 2020, to $973.76 thousand in November 2020, a MoM decrease of -2.0%.
+
+The company's G&A Expenses increased from $938.31 thousand in September 2020, to $993.61 thousand in October 2020, a MoM increase of 5.89%.
+
+The company's G&A Expenses increased from $887.53 thousand in August 2020, to $938.31 thousand in September 2020, a MoM increase of 5.72%.
+
+The company's G&A Expenses increased from $870.43 thousand in July 2020, to $887.53 thousand in August 2020, a MoM increase of 1.96%.
+
+The company's G&A Expenses decreased from $886.48 thousand in June 2020, to $870.43 thousand in July 2020, a MoM decrease of -1.81%.
+
+The company's G&A Expenses decreased from $906.13 thousand in May 2020, to $886.48 thousand in June 2020, a MoM decrease of -2.17%.
+
+The company's G&A Expenses decreased from $1.10 million in April 2020, to $906.13 thousand in May 2020, a MoM decrease of -17.61%.
+
+The company's G&A Expenses increased from $926.98 thousand in March 2020, to $1.10 million in April 2020, a MoM increase of 18.65%.
+
+The company's G&A Expenses decreased from $1.32 million in February 2020, to $926.98 thousand in March 2020, a MoM decrease of -30.04%.
+
+The company's G&A Expenses increased from $1.29 million in January 2020, to $1.32 million in February 2020, a MoM increase of 2.95%.
+
+The company's G&A Expenses increased from $3.61 million in Q2-2021, to $3.65 million in Q3-2021, a QoQ increase of 1.01%.
+
+The company's G&A Expenses increased from $3.48 million in Q1-2021, to $3.61 million in Q2-2021, a QoQ increase of 3.71%.
+
+The company's G&A Expenses increased from $2.95 million in Q4-2020, to $3.48 million in Q1-2021, a QoQ increase of 18.09%.
+
+The company's G&A Expenses increased from $2.70 million in Q3-2020, to $2.95 million in Q4-2020, a QoQ increase of 9.39%.
+
+The company's G&A Expenses decreased from $2.89 million in Q2-2020, to $2.70 million in Q3-2020, a QoQ decrease of -6.78%.
+
+The company's G&A Expenses decreased from $3.54 million in Q1-2020, to $2.89 million in Q2-2020, a QoQ decrease of -18.27%.
+
+The company's G&A Expenses increased from $5.65 million in H2-2020, to $7.10 million in H1-2021, a HoH increase of 25.68%.
+
+The company's G&A Expenses decreased from $6.43 million in H1-2020, to $5.65 million in H2-2020, a HoH decrease of -12.22%.
+
+Revenue changed from $18.33 million in October 2020 to $37.06 million in October 2021, which is a change of $18.72 million (102.15%).
+This was driven by Revenue which increased from $18.33 million to $37.06 million which is a change of $18.72 million (102.1%).
+
+COGS (Cost of Goods Sold) changed from $5.45 million in October 2020 to $7.31 million in October 2021, which is a change of $1.86 million (34.09%).
+This was driven by COGS (Cost of Goods Sold) which increased from $5.45 million to $7.31 million which is a change of $1.86 million (34.1%).
+
+Total Operating Expenses changed from $30.36 million in October 2020 to $41.86 million in October 2021, which is a change of $11.49 million (37.85%).
+This was driven by Research and Development (R&D) Expenses which increased from $10.12 million to $13.95 million which is a change of $3.83 million (37.8%) and General and Administrative (G&A) Expenses which increased from $10.12 million to $13.95 million which is a change of $3.83 million (37.8%).
+
+Against the industry benchmark score (relative performance score) in general, the company performance in October 2021 was weak (percentile 25%).
+
+From January 2021 to October 2021: The elimination of S&M expenses from $805.1 thousand to $0, with an average value of $1.1 million over the period, and a Compound Growth Rate of -100.00% over 9 periods, indicates a significant reduction in sales and marketing spend, which may have freed up resources to be allocated elsewhere, potentially contributing to the increase in Revenue.
+
+From January 2021 to October 2021: The substantial decrease in S&M_CAC from $-126.2 thousand to $-1.3 million, with an average value of $-66.9 thousand over the period, and a Compound Growth Rate of 29.04% over 9 periods, suggests a more efficient customer acquisition strategy, which could have directly contributed to the growth in Revenue.
+
+From January 2021 to October 2021: The increase in R&D from $931.3 thousand to $1.3 million, with an average value of $1.2 million over the period, and a Compound Growth Rate of 3.35% over 9 periods, reflects investment in product development, which may have led to innovations contributing to the revenue increase.
+
+From January 2021 to October 2021: The increase in Cogs from $525.9 thousand to $754.0 thousand, with an average value of $631.3 thousand over the period, and a Compound Growth Rate of 4.08% over 9 periods, indicates higher production costs, which could be due to increased sales volume, indirectly affecting Revenue.
+
+From January 2021 to October 2021: The increase in G&A from $931.3 thousand to $1.3 million, with an average value of $1.2 million over the period, and a Compound Growth Rate of 3.35% over 9 periods, may reflect scaling operations to support revenue growth, although it is an indirect effect.
+
+From January 2021 to February 2021: The increase in Gross Margin from January 2021 to February 2021 can be attributed to the rise in Revenue from $2.4 million to $2.5 million, with an average value of $2.5 million and a Compound Growth Rate of 5.01% over the period. This increase in revenue is a direct contributor to the Gross Margin, as higher sales directly improve the margin.
+
+From January 2021 to February 2021: The slight increase in Cogs from $525.9 thousand to $527.2 thousand, with an average value of $526.6 thousand and a Compound Growth Rate of 0.26% over the period, had a minimal impact on Gross Margin. The modest rise in costs did not significantly offset the increase in revenue.
+
+From March 2021 to October 2021: The significant increase in Revenue from $2.6 million to $4.3 million, with an average value of $3.5 million and a Compound Growth Rate of 7.28% over 7 periods, is the primary driver of the Gross Margin increase from March 2021 to October 2021. The substantial growth in revenue has a direct and strong impact on Gross Margin.
+
+From March 2021 to October 2021: The increase in Cogs from $556.8 thousand to $754.0 thousand, with an average value of $657.5 thousand and a Compound Growth Rate of 4.43% over 7 periods, also contributed to the Gross Margin trend. Although COGS increased, the impact was outweighed by the revenue growth, resulting in an overall improvement in Gross Margin.
+
+From March 2021 to October 2021: The decrease in S&M from $1.4 million to $0, with an average value of $1.2 million and a Compound Growth Rate of -100.00% over 7 periods, indicates a cessation of sales and marketing expenses. While this does not directly affect Gross Margin, the absence of these expenses may suggest a strategic shift that could indirectly influence revenue and margin through operational changes.
