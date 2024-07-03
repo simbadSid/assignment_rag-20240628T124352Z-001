@@ -1,0 +1,31 @@
+{
+	"paths": {
+		"llm_learning_company_path"	: "data/llm_learning_company/",
+		"metrics_doc_path"			: "data/metrics/metrics.docx",
+		"templates_doc_path"		: "data/templates/templates.docx",
+		"test_questions_doc_path"	: "test/data/input/test_questions.docx",
+		"open_search_url"			: "http://localhost:9200"
+	},
+	"database": {
+		"username"		: "your_username",
+		"password"		: "your_password",
+		"database_name"	: "company_finance_db",
+		"table_name"	: "company_finance_data",
+		"index_name"	: "finance_index"
+	},
+	"index_body": {
+		"settings": {
+			"number_of_shards"	: 1
+		},
+		"mappings": {
+			"properties": {
+				"company_id": {
+					"type"	: "integer"
+				},
+				"financial_data": {
+					"type"	: "text"
+				}
+			}
+		}
+	}
+}
