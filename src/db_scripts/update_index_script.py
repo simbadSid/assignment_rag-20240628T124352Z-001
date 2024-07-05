@@ -1,6 +1,7 @@
 import os
 from opensearchpy import OpenSearch
-from utils.utils import load_config, log, log_error
+from utils.config_management import log, log_error
+from utils.config_management import load_config
 
 def upload_documents() -> None:
     """
@@ -13,8 +14,10 @@ def upload_documents() -> None:
         config = load_config()
         log("Creating OpenSearch client", "info")
 
+        open_search_url = config["open_search"]["open_search_url"]
+        open_search_port = config["open_search"]["open_search_port"]
         client = OpenSearch(
-            hosts=[config["paths"]["open_search_url"]],
+            hosts=[f"{open_search_url}:{open_search_port}"],
             http_auth=(config["database"]["username"], config["database"]["password"]),
         )
 

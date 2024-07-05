@@ -1,6 +1,6 @@
 from fastapi.testclient import TestClient
-from src.web_app.app import app
-from utils.utils import log, log_error
+from web_app.app import app
+from utils.config_management import log, log_error
 
 client = TestClient(app)
 

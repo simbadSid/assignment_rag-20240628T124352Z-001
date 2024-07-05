@@ -1,5 +1,7 @@
+import os
 from langchain.llms import OpenAI
-from utils.utils import load_config, log, log_error
+from utils.config_management import load_config_secret_key
+from utils.log_management import log, log_error
 
 class LLMHandler:
     def __init__(self):
@@ -7,10 +9,14 @@ class LLMHandler:
         Initialize the LLMHandler with configuration.
         """
         try:
-            self.config = load_config()
-            log("Initializing LLMHandler", "info")
+            openai_api_key = load_config_secret_key(config_key_id='openai_api_key_path')
 
-            self.model = OpenAI(model="gpt-4")  # Example, adjust as needed
+            # Set the OpenAI API key as an environment variable
+            log("Set openAI API key as env variable (to handle mac os compatibility)", "info")
+            os.environ['OPENAI_API_KEY'] = openai_api_key
+
+            log("Initializing LLMHandler", "info")
+            self.model = OpenAI(model="gpt-4")#, api_key=openai_api_key)
             self.memory = {}
             log("LLMHandler initialized successfully", "info")
         except Exception as e:

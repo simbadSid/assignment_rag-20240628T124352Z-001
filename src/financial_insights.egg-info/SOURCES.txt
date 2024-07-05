@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/financial_insights.egg-info/PKG-INFO
+src/financial_insights.egg-info/SOURCES.txt
+src/financial_insights.egg-info/dependency_links.txt
+src/financial_insights.egg-info/requires.txt
+src/financial_insights.egg-info/top_level.txt

@@ -3,8 +3,15 @@
 		"llm_learning_company_path"	: "data/llm_learning_company/",
 		"metrics_doc_path"			: "data/metrics/metrics.docx",
 		"templates_doc_path"		: "data/templates/templates.docx",
+
 		"test_questions_doc_path"	: "test/data/input/test_questions.docx",
-		"open_search_url"			: "http://localhost:9200"
+
+		"openai_api_key_path"		: "config/keys/openai_api_key.txt",
+		"opensearch_admin_pwd_path"	: "config/keys/opensearch_admin_password.txt"
+	},
+	"open_search": {
+		"open_search_url"			: "http://localhost",
+		"open_search_port"			: "9200"
 	},
 	"database": {
 		"username"		: "your_username",

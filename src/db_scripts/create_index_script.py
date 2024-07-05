@@ -1,5 +1,6 @@
 from opensearchpy import OpenSearch
-from utils.utils import load_config, log, log_error
+from utils.config_management import load_config, load_config_secret_key
+from utils.log_management import log, log_error
 
 def create_index() -> None:
     """
@@ -12,9 +13,16 @@ def create_index() -> None:
         config = load_config()
         log("Creating OpenSearch client", "info")
 
+        open_search_url = config["open_search"]["open_search_url"]
+        open_search_port = config["open_search"]["open_search_port"]
+
+
+        open_search_admin_pwd = load_config_secret_key(config_key_id='opensearch_admin_pwd_path')
+
         client = OpenSearch(
-            hosts=[config["paths"]["open_search_url"]],
-            http_auth=(config["database"]["username"], config["database"]["password"]),
+            hosts=[f"{open_search_url}:{open_search_port}"],
+#            http_auth=(config["database"]["username"], config["database"]["password"]),
+            http_auth=("admin", open_search_admin_pwd),
         )
         log(f"Creating index: {config['database']['index_name']}", "info")
 

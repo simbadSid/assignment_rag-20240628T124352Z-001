@@ -1,2 +1,22 @@
-env
-.idea
+# Ignore the virtual environment directory
+env/
+
+# Ignore Python cache files
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
+
+# Ignore documentation and secret files
+doc/
+config/keys/openai_api_key.txt
+
+# Ignore local development files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db

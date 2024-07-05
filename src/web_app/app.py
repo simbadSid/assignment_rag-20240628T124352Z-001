@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from models.LLM_model import LLMHandler
-from utils.utils import load_config, log, log_error
+from utils.log_management import  log, log_error
 
 app = FastAPI()
 
@@ -10,7 +10,6 @@ class QueryRequest(BaseModel):
     company_id: int
 
 try:
-    config = load_config()
     llm_handler = LLMHandler()
     log("Web application initialized", "info")
 except Exception as e:

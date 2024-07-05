@@ -1,15 +1,19 @@
 import pytest
 from opensearchpy import OpenSearch
-from src.db_scripts.create_index_script import create_index
-from src.db_scripts.update_index_script import upload_documents
-from utils.utils import load_config, log, log_error
+from db_scripts.create_index_script import create_index
+from db_scripts.update_index_script import upload_documents
+from utils.log_management import log, log_error
+from utils.config_management import load_config
 
 @pytest.fixture
 def opensearch_client():
     config = load_config()
     log("Setting up OpenSearch client fixture", "info")
+
+    open_search_url = config["open_search"]["open_search_url"]
+    open_search_port = config["open_search"]["open_search_port"]
     client = OpenSearch(
-        hosts=[config["paths"]["open_search_url"]],
+        hosts=[f"{open_search_url}:{open_search_port}"],
         http_auth=(config["database"]["username"], config["database"]["password"]),
     )
     yield client

@@ -30,14 +30,20 @@ To set up the virtual environment and install dependencies, follow these steps:
    ```sh
    source env/bin/activate
    ```
-4. **Install the project and all its dependencies in editable mode**
+4. **Install the project and all its dependencies in editable mode (using ./setup.py)**
    ```sh
    pip install -e .
    ```
+5. **Set your personal keys:**
+Set the OpenAI API key and OpenSearch admin password in the files:
+   ```sh
+    ./config/keys/openai_api_key.txt
+    ./config/keys/opensearch_admin_password.txt
+    ```
 
 ### Configuration
 
-Edit the `config/config.json` file with your specific paths, database credentials, and other configuration details.
+Edit the `config/config.json` file with your specific paths, database credentials, and other configuration details specific to your environment.
 
 ## Directory Structure
 
@@ -49,7 +55,7 @@ Edit the `config/config.json` file with your specific paths, database credential
 - **src/**: Source code for the project.
   - **db_scripts/**: Scripts for creating and updating the OpenSearch index.
   - **models/**: Contains the LLM model handler.
-  - **web_front/**: Contains the web application files.
+  - **web_app/**: Contains the web application files.
   - **utils/**: Utility functions used across the project.
 - **test/**: Contains unit and non-regression tests and sample test questions.
 - **README.md**: This readme file.
@@ -61,7 +67,7 @@ Edit the `config/config.json` file with your specific paths, database credential
 
 1. **Run OpenSearch using Docker**
    ```sh
-   docker run -d --name opensearch -p 9200:9200 -p 9600:9600 -e "discovery.type=single-node" opensearchproject/opensearch:latest
+   python src/db_scripts/launch_opensearch.py
    ```
 
 2. **Verify OpenSearch is running**
@@ -83,7 +89,7 @@ Edit the `config/config.json` file with your specific paths, database credential
 
 1. **Start the web application**
    ```sh
-   uvicorn src.web_front.app:app --reload
+   uvicorn src.web_app.app:app --reload
    ```
 
 ### Docker Setup
@@ -96,20 +102,6 @@ Edit the `config/config.json` file with your specific paths, database credential
 2. **Run the Docker container**
    ```sh
    docker run -p 8000:8000 financial_insights
-   ```
-
-### Running Tests
-
-To run the tests, use `pytest`:
-
-1. **Install pytest**
-   ```sh
-   pip install pytest
-   ```
-
-2. **Run the tests**
-   ```sh
-   pytest
    ```
 
 ### Interact with the Web Front
@@ -154,6 +146,15 @@ To generate documentation from the code comments, follow these steps:
 1. **Create or empty the `./doc` directory**
    ```sh
    mkdir -p doc && rm -rf doc/*
+   ```
+
+### Running Tests
+
+To run the tests, use `pytest`:
+
+1. **Run the tests**
+   ```sh
+   pytest
    ```
 
 2. **Generate documentation**
