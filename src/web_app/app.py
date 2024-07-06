@@ -9,11 +9,10 @@ class QueryRequest(BaseModel):
     query: str
     company_id: int
 
-try:
-    llm_handler = LLMHandler()
-    log("Web application initialized", "info")
-except Exception as e:
-    log_error(f"Failed to initialize web application: {e}", exception_to_raise=RuntimeError)
+
+# TODO parametrize LLMHandler with the model instance
+llm_handler = LLMHandler()
+log("Web application initialized", "info")
 
 @app.post("/query")
 def query(request: QueryRequest):

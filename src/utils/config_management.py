@@ -7,93 +7,114 @@ WARNING: the variable CONFIG_PATH needs to be modified according to any changes 
 
 import json
 import os
-from typing import Optional
+from typing import Union, List
 
 from utils.log_management import log, log_error
 from utils.path_management import path_to_absolute
 
 CONFIG_PATH = path_to_absolute("config/config.json")
 
-def load_config() -> dict:
-    """
-    Load configuration from a file. Handle errors if the file is not found or the JSON is invalid.
+class Config:
+    def __init__(self):
+        """
+        Load configuration from a JSON config file. Handle errors if the file is not found or the JSON is invalid.
+        """
+        self.config_dict : dict = {}
 
-    Returns:
-        dict: Configuration dictionary.
-    """
-    try:
-        with open(CONFIG_PATH) as config_file:
-            res = json.load(config_file)
-            res = paths_to_absolute(res)
-            log("Configuration loaded successfully", "info")
-            return res
-    except FileNotFoundError:
-        log_error(f"Configuration file not found: {CONFIG_PATH}", exception_to_raise=RuntimeError)
-    except json.JSONDecodeError as e:
-        log_error(f"Error decoding JSON from the configuration file: {e}", exception_to_raise=RuntimeError)
-    except Exception as e:
-        log_error(f"Unexpected error: {e}", exception_to_raise=RuntimeError)
+        try:
+            with open(CONFIG_PATH) as config_file:
+                res = json.load(config_file)
+                self.config_dict =  res
+                log("Configuration loaded successfully", "info")
+                self.paths_to_absolute()
+        except FileNotFoundError:
+            log_error(f"Configuration file not found: {CONFIG_PATH}", exception_to_raise=RuntimeError)
+        except json.JSONDecodeError as e:
+            log_error(f"Error decoding JSON from the configuration file: {e}", exception_to_raise=RuntimeError)
+        except Exception as e:
+            log_error(f"Unexpected error: {e}", exception_to_raise=RuntimeError)
 
-def load_config_secret_key(config_key_id: str, config: Optional[dict] = None) -> str:
-    """
-    Retrieves the secret key from the file specified in the configuration.
+    def load_config(self, key_to_search: Union[str, List[str]]) -> Union[str, dict]:
+        """
+                Load configuration value based on the key or nested keys provided.
 
-    Args:
-        config_key_id: the expected key in the JSON config file.
-        config (Optional[dict]): Configuration dictionary. If not provided, the function will load the configuration.
+                Args:
+                    key_to_search (Union[str, List[str]]): Key or nested keys used to retrieve the configuration value.
 
-    Returns:
-        str: The specified key.
+                Returns:
+                    Union[str, dict]: The value from the configuration corresponding to the key.
 
-    Raises:
-        ValueError: If there is an error in retrieving or reading the key.
-        FileNotFoundError: If the file specified in the config file is not correct.
-    """
-    # Load the configuration
-    if config is None:
-        config = load_config()
+                Raises:
+                    ValueError: If the specified key or nested key path does not exist in the configuration.
+                """
+        if isinstance(key_to_search, str):
+            key_hierarchy = [key_to_search]
+        else:
+            key_hierarchy = key_to_search
 
-    # Retrieve the path of the file containing the OpenAI API key
-    key_path = config["paths"].get(config_key_id)
-    if not key_path:
-        message = f"The required '{config_key_id}' parameter is missing in the configuration file specified in {CONFIG_PATH}."
-        log_error(message, exception_to_raise=ValueError)
+        def get_conf(_key_hierarchy: List[str], sub_config_dict: dict) -> Union[str, dict, None]:
+            key = _key_hierarchy[0]
+            if not key in sub_config_dict:
+                return None
+            if len(_key_hierarchy) == 1:
+                return sub_config_dict[key]
+            else:
+                return get_conf(_key_hierarchy[1:], sub_config_dict[key])
 
-    # Check if the file exists
-    if not os.path.isfile(key_path):
-        message = f"The key file specified in {CONFIG_PATH} was not found: {config_key_id}"
-        log_error(message, exception_to_raise=FileNotFoundError)
+        res = get_conf(key_hierarchy, self.config_dict)
+        if res is None:
+            message = f"The required '{key_hierarchy}' parameter is missing in the configuration file specified in {CONFIG_PATH}."
+            log_error(message, exception_to_raise=ValueError)
 
-    # Read the API key from the file
-    with open(key_path, 'r') as file:
-        api_key = file.read().strip()
+        return res
 
-    if not api_key:
-        message = f"The {config_key_id} key file specified in {CONFIG_PATH} is empty: {key_path}"
-        log_error(message, exception_to_raise=ValueError)
+    def load_config_secret_key(self, config_id_key: str) -> str:
+        """
+        Retrieves the secret key from the file specified in the configuration.
 
-    log(f"{config_key_id} key retrieved successfully from file: {key_path}", "info")
-    return api_key
+        Args:
+            config_id_key: the expected key in the JSON config file.
 
-def paths_to_absolute(config: dict) -> dict:
-    """
-    Convert relative paths in the configuration to absolute paths based on the project root directory.
+        Returns:
+            str: The specified key.
 
-    Args:
-        config (dict): Configuration dictionary containing relative paths.
+        Raises:
+            ValueError: If there is an error in retrieving or reading the key.
+            FileNotFoundError: If the file specified in the config file is not correct.
+        """
 
-    Returns:
-        dict: Configuration dictionary with absolute paths.
+        # Retrieve the path of the file containing the OpenAI API key
+        key_path = self.load_config(["paths", config_id_key])
 
-    Raises:
-        ValueError: If the 'paths' section in the configuration is missing or not a dictionary.
-    """
-    config_paths = config['paths']
-    if not config_paths or not isinstance(config_paths, dict):
-        message = f"The configuration file specified in {CONFIG_PATH} has errors in the 'paths' section."
-        log_error(message, exception_to_raise=ValueError)
+        # Check the existence if the file containing the key
+        if not os.path.isfile(key_path):
+            message = f"The key file specified in {CONFIG_PATH} was not found: {config_id_key}"
+            log_error(message, exception_to_raise=FileNotFoundError)
 
-    for key, path in config_paths.items():
-        config_paths[key] = path_to_absolute(path)
+        # Read the API key from the file
+        with open(key_path, 'r') as file:
+            key_value = file.read().strip()
 
-    return config
+        if not key_value:
+            message = f"The {config_id_key} key file specified in {CONFIG_PATH} is empty: {key_path}"
+            log_error(message, exception_to_raise=ValueError)
+
+        log(f"{config_id_key} key retrieved successfully from file: {key_path}", "info")
+        return key_value
+
+    def paths_to_absolute(self):
+        """
+        Convert relative paths in the configuration to absolute paths based on the project root directory.
+
+        Raises:
+            ValueError: If the 'paths' section in the configuration is missing or not a dictionary.
+        """
+        log(f"Setting the paths in the config file {CONFIG_PATH} to absolute paths", "info")
+
+        config_paths = self.load_config('paths')
+        if not config_paths or not isinstance(config_paths, dict):
+            message = f"The configuration file specified in {CONFIG_PATH} has errors in the 'paths' section."
+            log_error(message, exception_to_raise=ValueError)
+
+        for key, path in config_paths.items():
+            config_paths[key] = path_to_absolute(path)

@@ -7,30 +7,36 @@
 		"test_questions_doc_path"	: "test/data/input/test_questions.docx",
 
 		"openai_api_key_path"		: "config/keys/openai_api_key.txt",
-		"opensearch_admin_pwd_path"	: "config/keys/opensearch_admin_password.txt"
+
+		"opensearch_admin_pwd_path"	: "config/keys/opensearch_admin_password.txt",
+		"opensearch_config_path"	: "config/opensearch.yml"
 	},
 	"open_search": {
-		"open_search_url"			: "http://localhost",
-		"open_search_port"			: "9200"
+		"open_search_url"			: "https://localhost",
+		"open_search_port"			: "9200",
+		"open_search_transport_port": "9600",
+		"open_search_admin_login"	: "admin",
+		"open_search_docker_image"	: "opensearchproject/opensearch:latest",
+		"open_search_container_name": "opensearch"
 	},
 	"database": {
-		"username"		: "your_username",
-		"password"		: "your_password",
-		"database_name"	: "company_finance_db",
-		"table_name"	: "company_finance_data",
-		"index_name"	: "finance_index"
-	},
-	"index_body": {
-		"settings": {
-			"number_of_shards"	: 1
-		},
-		"mappings": {
-			"properties": {
-				"company_id": {
-					"type"	: "integer"
-				},
-				"financial_data": {
-					"type"	: "text"
+		"username"					: "your_username",
+		"password"					: "your_password",
+		"database_name"				: "company_finance_db",
+		"table_name"				: "company_finance_data",
+		"index_name"				: "finance_index",
+		"index_body": {
+			"settings": {
+				"number_of_shards"		: 1
+			},
+			"mappings": {
+				"properties": {
+					"company_id": {
+						"type"			: "integer"
+					},
+					"financial_data": {
+						"type"			: "text"
+					}
 				}
 			}
 		}

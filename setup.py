@@ -12,9 +12,9 @@ setup(
         'uvicorn==0.22.0',
         'opensearch-py==2.0.0',
         'pydantic==1.10.11',
-        'langchain==0.0.189',
+        'langchain==0.0.332',
         'pytest==7.3.1',
         'pytest',
-        'openai'
+        'openai==0.27.0',
     ],
 )

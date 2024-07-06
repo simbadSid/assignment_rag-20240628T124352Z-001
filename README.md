@@ -72,7 +72,8 @@ Edit the `config/config.json` file with your specific paths, database credential
 
 2. **Verify OpenSearch is running**
    ```sh
-   curl -X GET "localhost:9200/"
+   password=$(cat config/keys/opensearch_admin_password.txt)
+   curl -X GET -k -u admin:"$password" https://localhost:9200/
    ```
 
 3. **Create the OpenSearch index**
