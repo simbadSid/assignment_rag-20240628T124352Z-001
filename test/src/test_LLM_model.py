@@ -1,5 +1,6 @@
 import pytest
-from models.LLM_handler import LLMHandler
+
+from models.LLM_model import LLMHandler
 from utils.config_management import log, log_error
 
 def test_handle_query():

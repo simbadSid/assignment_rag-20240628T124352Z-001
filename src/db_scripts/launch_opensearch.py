@@ -1,3 +1,12 @@
+"""
+launch_opensearch.py
+
+This script launches an OpenSearch docker container using configurations specified in
+config/config.json. It handles loading configurations, constructing the docker run
+command with appropriate environment variables, and logging the process. If the docker
+command fails, it logs an error and raises a RuntimeError.
+"""
+
 import subprocess
 
 from utils.log_management import log, log_error
