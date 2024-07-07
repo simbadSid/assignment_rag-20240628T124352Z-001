@@ -1,23 +1,27 @@
 {
 	"paths": {
-		"llm_learning_company_path"	: "data/llm_learning_company/",
-		"metrics_doc_path"			: "data/metrics/metrics.docx",
-		"templates_doc_path"		: "data/templates/templates.docx",
+		"llm_learning_company_path"			: "data/llm_learning_company/",
+		"metrics_doc_path"					: "data/metrics/metrics.docx",
+		"templates_doc_path"				: "data/templates/templates.docx",
 
-		"test_questions_doc_path"	: "test/data/input/test_questions.docx",
+		"test_questions_doc_path"			: "test/data/input/test_questions.docx",
 
-		"openai_api_key_path"		: "config/keys/openai_api_key.txt",
+		"openai_api_key_path"				: "config/keys/openai_api_key.txt",
 
-		"opensearch_admin_pwd_path"	: "config/keys/opensearch_admin_password.txt",
-		"opensearch_config_path"	: "config/opensearch.yml"
+		"opensearch_admin_pwd_path"			: "config/keys/opensearch_admin_password.txt"
 	},
 	"open_search": {
-		"open_search_url"			: "https://localhost",
-		"open_search_port"			: "9200",
-		"open_search_transport_port": "9600",
-		"open_search_admin_login"	: "admin",
-		"open_search_docker_image"	: "opensearchproject/opensearch:latest",
-		"open_search_container_name": "opensearch"
+		"open_search_url"					: "https://localhost",
+		"open_search_port"					: "9200",
+		"open_search_transport_port"		: "9600",
+		"open_search_admin_login"			: "admin",
+		"open_search_docker_image_name"		: "opensearchproject/opensearch:latest",
+		"open_search_docker_container_name"	: "opensearch",
+		"open_search_docker_configs"		: {
+			"cluster.name"					: "docker-cluster",
+			"network.host"					: "0.0.0.0",
+			"discovery.type"				: "single-node"
+		}
 	},
 	"database": {
 		"username"					: "your_username",

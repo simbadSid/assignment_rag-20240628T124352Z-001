@@ -157,8 +157,10 @@ To run the tests, use `pytest`:
    ```sh
    pytest
    ```
+#TODO specify the tests implemented
 
-2. **Generate documentation**
+
+### Generate documentation**
    ```sh
    pydoc -w src
    ```

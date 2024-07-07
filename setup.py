@@ -16,5 +16,6 @@ setup(
         'pytest==7.3.1',
         'pytest',
         'openai==0.27.0',
+        'httpx'
     ],
 )
