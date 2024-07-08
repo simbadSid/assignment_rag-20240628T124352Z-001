@@ -1,0 +1,16 @@
+
+
+
+- Ensure the conversational LLM only replies to financial questions.
+- Ensure it appropriately handles the memory of the conversation within a session.
+
+- Implement non regression tests
+- Use the test file given by Josep
+
+- Store the company data allong with meta data (data, metric, )
+- Improve the RAG research of template (semantic matching)
+
+
+
+
+
