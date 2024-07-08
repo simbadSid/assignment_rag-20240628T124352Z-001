@@ -22,7 +22,7 @@ class Config:
         self.config_dict : dict = {}
 
         try:
-            with open(CONFIG_PATH) as config_file:
+            with open(CONFIG_PATH, 'r') as config_file:
                 res = json.load(config_file)
                 self.config_dict =  res
                 log("Configuration loaded successfully", "info")

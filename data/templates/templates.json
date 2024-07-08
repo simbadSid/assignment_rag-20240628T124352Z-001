@@ -1,0 +1,28 @@
+{
+    "t1": {
+        "analysis_type"  : "YoY Change",
+        "calculation_ids": ["yoy_change"],
+        "template"       : "The company's {current_period} {metric_name} was {current_value}, compared to {last_period} {metric_name} in {last_value}, a YoY {increase_decrease_nochange} of {pct_change}.",
+        "eval_condition" : "True",
+        "timeframe"      : ["all"],
+        "type"           : "objective"
+    },
+
+    "t2": {
+        "analysis_type"  : "PoP Change",
+        "calculation_ids": ["pop_change"],
+        "template"       : "The company's {metric_name} {increased_decreased_remainedunchanged} from {last_value} in {last_period}, to {current_value} in {current_period}, a {timeframe} {increase_decrease_nochange} of {pct_change}.",
+        "eval_condition" : "True",
+        "timeframe"      : ["MoM", "QoQ", "HoH"],
+        "type"           : "insights"
+    },
+
+    "t4": {
+        "analysis_type"  : "Causal Hierarchy",
+        "calculation_ids": ["benchmark"],
+        "template"       : "Against the industry benchmark{_for_the_metric}, the company performance in {last_snapshot_date} was {strong_weak_at_market_average} (percentile {percentile}).",
+        "eval_condition" : "True",
+        "timeframe"      : ["YoY"],
+        "type"           : "objective"
+    }
+}

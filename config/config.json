@@ -1,14 +1,23 @@
 {
 	"paths": {
-		"llm_learning_company_path"			: "data/llm_learning_company/",
-		"metrics_doc_path"					: "data/metrics/metrics.docx",
-		"templates_doc_path"				: "data/templates/templates.docx",
+		"company_data_path"					: "data/company_data/",
+		"metrics_data_path"					: "data/metrics/metrics.json",
+		"templates_data_path"				: "data/templates/templates.json",
 
 		"test_questions_doc_path"			: "test/data/input/test_questions.docx",
 
 		"openai_api_key_path"				: "config/keys/openai_api_key.txt",
 
 		"opensearch_admin_pwd_path"			: "config/keys/opensearch_admin_password.txt"
+	},
+	"llm_request_parser": {
+		"model"								:"gpt-3.5-turbo"
+	},
+	"llm_request_answerer": {
+		"model"								:"gpt-3.5-turbo"
+	},
+	"llm_semantic_matching": {
+		"model"								: "sentence-transformers/all-MiniLM-L6-v2"
 	},
 	"open_search": {
 		"open_search_url"					: "https://localhost",
@@ -24,22 +33,71 @@
 		}
 	},
 	"database": {
-		"username"					: "your_username",
-		"password"					: "your_password",
-		"database_name"				: "company_finance_db",
-		"table_name"				: "company_finance_data",
-		"index_name"				: "finance_index",
-		"index_body": {
-			"settings": {
-				"number_of_shards"		: 1
-			},
-			"mappings": {
-				"properties": {
-					"company_id": {
-						"type"			: "integer"
-					},
-					"financial_data": {
-						"type"			: "text"
+		"username"							: "your_username",
+		"password"							: "your_password",
+		"database_name"						: "company_finance_db",
+
+		"company_data": {
+			"index_name"					: "company_data_index",
+			"index_body": {
+				"settings": {
+					"number_of_shards"		: 1
+				},
+				"mappings": {
+					"properties": {
+						"company_id"		: {"type": "integer"},
+						"financial_data"	: {"type": "text"}
+					}
+				}
+			}
+		},
+
+		"metrics_data": {
+			"index_name"                    : "metrics_index",
+			"index_body": {
+				"settings": {
+					"number_of_shards"      : 1,
+					"analysis": {
+						"normalizer": {
+							"lowercase_normalizer": {
+								"type"		: "custom",
+								"char_filter": [],
+								"filter"	: ["lowercase"]
+							}
+						}
+					}
+				},
+
+				"mappings": {
+					"properties": {
+						"metric_name"		: {"type": "text", "fields": {"keyword": {"type": "keyword", "normalizer": "lowercase_normalizer"}}},
+						"description"		: {"type": "text"},
+						"table_data_in_db"	: {"type": "text"},
+						"field_name_in_db"	: {"type": "text"},
+						"name_in_db"		: {"type": "text"},
+						"units"				: {"type": "text"},
+						"proportionality"	: {"type": "text"},
+						"where"				: {"type": "text"},
+						"formula"			: {"type": "text"}
+					}
+				}
+			}
+		},
+
+		"templates_data": {
+			"index_name"					: "templates_index",
+			"index_body": {
+				"settings"					: {"number_of_shards": 1, "index.knn": true},
+				"mappings": {
+					"properties": {
+						"template_name"		: {"type": "text"},
+						"analysis_type"		: {"type": "text"},
+						"calculation_ids"	: {"type": "text"},
+						"template"			: {"type": "text"},
+						"eval_condition"	: {"type": "text"},
+						"timeframe"			: {"type": "text"},
+						"type"				: {"type": "text"},
+						"template_embedding": {"type": "knn_vector", "dimension": 384}
 					}
 				}
 			}

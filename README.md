@@ -49,7 +49,7 @@ Edit the `config/config.json` file with your specific paths, database credential
 
 - **config/**: Contains the configuration file `config.json` to be edited with your specific paths, database credentials, and other configuration details.
 - **data/**: Directory for storing financial data, metrics, and templates.
-  - **llm_learning_company/**: Financial data files (1 for each company) used to train the LLM models relative to each company.
+  - **company_data/**: Financial data files (1 for each company) used to to fetch data for the RAG answer.
   - **metrics/**: Contains the financial indicators to be used in evaluating a company.
   - **templates/**: Contains the templates of the answers to be returned by each LLM.
 - **src/**: Source code for the project.
@@ -67,7 +67,7 @@ Edit the `config/config.json` file with your specific paths, database credential
 
 1. **Run OpenSearch using Docker**
    ```sh
-   python src/db_scripts/launch_opensearch.py
+   python src/db_scripts/run_opensearch_container.py
    ```
 
 2. **Verify OpenSearch is running**

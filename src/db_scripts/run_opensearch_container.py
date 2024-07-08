@@ -1,5 +1,5 @@
 """
-launch_opensearch.py
+run_opensearch_container.py
 
 This script launches an OpenSearch docker container using configurations specified in
 config/config.json. It handles loading configurations, constructing the docker run

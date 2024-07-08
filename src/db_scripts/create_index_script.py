@@ -11,7 +11,7 @@ def instantiate_open_search_client(config: Config) -> OpenSearch:
     open_search_admin_login = config.load_config(["open_search", "open_search_admin_login"])
     open_search_admin_pwd   = config.load_config_secret_key(config_id_key='opensearch_admin_pwd_path')
 
-    client = OpenSearch(
+    return OpenSearch(
         # TODO            DB username and password from config.json,
         hosts           = [f"{open_search_url}:{open_search_port}"],
         http_auth       = (open_search_admin_login, open_search_admin_pwd),
@@ -20,19 +20,13 @@ def instantiate_open_search_client(config: Config) -> OpenSearch:
         ssl_show_warn   = False,
     )
 
-    return client
 
-
-def create_index() -> None:
+def create_index(client: OpenSearch, index_name: str, index_body: dict) -> None:
     """
     Create an index in OpenSearch.
     """
-    config      : Config        = Config()
-    client      : OpenSearch    = instantiate_open_search_client(config)
-    index_name  : str           = config.load_config(["database", "index_name"])
-    index_body  : dict          = config.load_config(["database", "index_body"])
 
-    log(f"Creating index: {index_name}", "info")
+    log(f"\n\nCreating index: {index_name}", "info")
 
     client.indices.create(index=index_name, body=index_body)
 
@@ -40,6 +34,19 @@ def create_index() -> None:
 
 if __name__ == "__main__":
     try:
-        create_index()
+        _config     : Config        = Config()
+        _client      : OpenSearch    = instantiate_open_search_client(_config)
+
+        _index_name : str           = _config.load_config(["database", "company_data", "index_name"])
+        _index_body : dict          = _config.load_config(["database", "company_data", "index_body"])
+        create_index(_client, _index_name, _index_body)
+
+        _index_name : str           = _config.load_config(["database", "metrics_data", "index_name"])
+        _index_body : dict          = _config.load_config(["database", "metrics_data", "index_body"])
+        create_index(_client, _index_name, _index_body)
+
+        _index_name : str           = _config.load_config(["database", "templates_data", "index_name"])
+        _index_body : dict          = _config.load_config(["database", "templates_data", "index_body"])
+        create_index(_client, _index_name, _index_body)
     except Exception as e:
         log_error(f"Failed to create index: {e}", exception_to_raise=RuntimeError)

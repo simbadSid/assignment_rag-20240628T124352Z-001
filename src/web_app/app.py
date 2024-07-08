@@ -1,23 +1,26 @@
 from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel
-from models.LLM_model import LLMHandler
+
+from models.llm_request_parser import LlmRequestParser
+from models.llm_utils import QueryRequest
+from models.rag import RagHandler
+from utils.config_management import Config
 from utils.log_management import  log, log_error
 
 app = FastAPI()
 
-class QueryRequest(BaseModel):
-    query: str
-    company_id: int
+config                  : Config                = Config()
+llm_request_parser      : LlmRequestParser      = LlmRequestParser(config)
+rag_handler             : RagHandler            = RagHandler(config)
+llm_request_answerer    : LlmRequestAnswerer    = LlmRequestAnswerer(config)
 
-
-# TODO parametrize LLMHandler with the model instance
-llm_handler = LLMHandler()
 log("Web application initialized", "info")
 
 @app.post("/query")
 def query(request: QueryRequest):
     """
     Handle incoming queries and return responses.
+    TODO update and correct comment
+    The response is computed by gpt model with the specific data related to the query: company-related data, metrics and template.
 
     Args:
         request (QueryRequest): Request containing the query and company ID.
@@ -27,7 +30,11 @@ def query(request: QueryRequest):
     """
     try:
         log(f"Received query: {request.query} for company_id: {request.company_id}", "info")
-        response = llm_handler.handle_query(request.query, request.company_id)
+        llm_request_parser  .parse_user_request(request)
+        rag_handler         .set_context_related_to_request(llm_request_parser)
+
+        response: str = llm_request_answerer.answer(llm_request_parser, rag_handler)
+
         log(f"Returning response: {response}", "info")
         return {"response": response}
     except Exception as e:
