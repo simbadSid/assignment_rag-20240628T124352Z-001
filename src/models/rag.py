@@ -13,7 +13,7 @@ from utils.config_management import Config
 from utils.log_management import log, log_error
 
 
-def keep_only_keywords(query: str) -> list[str]:
+def keep_only_keywords(query: str) -> list:
     # TODO Find a better method
     non_key_word_list = ['in', 'a', 'the', 'at', 'from', "what", 'with', 'where', 'why', 'who', 'when', 'if',
                          'then', 'else', 'into', 'is', 'was', 'for', 'while']
@@ -66,7 +66,7 @@ class RagHandler:
     def fetch_company_data(self, query_request: LlmRequestParser) -> list[str]:
         """
         Fetch the company-related data from OpenSearch.
-        # TODO optimize by storing metadata in opensearch: date, metrics,
+        Optimization: extracts from the query some data (period, metric, etc) and uses them to retrieve the company-related data from the index table.
 
         Args:
             query_request : The query request received from the client and preparsed.
@@ -79,10 +79,23 @@ class RagHandler:
 
         company_index: str = self.config.load_config(["database", "company_data", "index_name"])
 
-        response = self.client.get(index=company_index, id=query_request.company_id)
-        text_response =  response["_source"].get("financial_data", "")
+        body = {
+            "query": {
+                "bool": {
+                    "should": [
+                        {"match": {"company_id"     : query_request.company_id}},
+                        {"match": {"current_period" : query_request.date}},
 
-        return re.split(r'\n+', text_response)
+                        # TODO Find the metric in the request and use it in requesting the index
+                        #{"match": {"metric_name": keyword}} for keyword in keywords
+                    ]
+                }
+            }
+        }
+
+        response = self.client.search(index=company_index, body=body)
+        response = [hit["_source"] for hit in response["hits"]["hits"]]
+        return [data_dict['raw_data_line'] for data_dict in response]
 
     def fetch_metrics(self, query_request: LlmRequestParser) -> dict[str, dict]:
         """
@@ -98,7 +111,7 @@ class RagHandler:
 
         log("Fetch metrics data relative to the query", "info")
 
-        metrics_index : str       = self.config.load_config(["database", "metrics_data", "index_name"])
+        metrics_index   : str       = self.config.load_config(["database", "metrics_data", "index_name"])
         keywords        : list[str] = keep_only_keywords(query_request.query)
 
         # Construct a bool query to match any of the keywords in the metric_name field

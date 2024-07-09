@@ -46,7 +46,21 @@
 				"mappings": {
 					"properties": {
 						"company_id"		: {"type": "integer"},
-						"financial_data"	: {"type": "text"}
+						"raw_data_line"		: {"type": "text"},
+
+						"current_period"    :   {"type": "text"},
+						"metric_name"       :   {"type": "text"},
+						"current_value"     :   {"type": "text"},
+						"last_period"       :   {"type": "text"},
+						"last_value"        :   {"type": "text"},
+						"increase_decrease_nochange"      :   {"type": "text"},
+						"pct_change"        :   {"type": "text"},
+						"increased_decreased_remainedunchanged" :   {"type": "text"},
+						"timeframe"         :   {"type": "text"},
+						"_for_the_metric"   :   {"type": "text"},
+						"last_snapshot_date":   {"type": "text"},
+						"strong_weak_at_market_average"   :   {"type": "text"},
+						"percentile"        :   {"type": "text"}
 					}
 				}
 			}

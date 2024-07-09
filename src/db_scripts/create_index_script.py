@@ -1,9 +1,22 @@
+"""
+This module provides functionality for creating OpenSearch indices.
+The script allows to create and configure indices to store the company-related data, templates and metrics.
+"""
+
 from opensearchpy import OpenSearch
 from utils.config_management import Config
 from utils.log_management import log, log_error
 
-
 def instantiate_open_search_client(config: Config) -> OpenSearch:
+    """
+    Create an OpenSearch client using configuration settings.
+
+    Args:
+        config (Config): The configuration object to load settings from.
+
+    Returns:
+        OpenSearch: The instantiated OpenSearch client.
+    """
     log("Creating OpenSearch client", "info")
 
     open_search_url         = config.load_config(["open_search", "open_search_url"])
@@ -20,12 +33,18 @@ def instantiate_open_search_client(config: Config) -> OpenSearch:
         ssl_show_warn   = False,
     )
 
-
 def create_index(client: OpenSearch, index_name: str, index_body: dict) -> None:
     """
     Create an index in OpenSearch.
-    """
 
+    Args:
+        client (OpenSearch): The OpenSearch client.
+        index_name (str): The name of the index to create.
+        index_body (dict): The body of the index configuration.
+
+    Returns:
+        None
+    """
     log(f"\n\nCreating index: {index_name}", "info")
 
     client.indices.create(index=index_name, body=index_body)
@@ -35,7 +54,7 @@ def create_index(client: OpenSearch, index_name: str, index_body: dict) -> None:
 if __name__ == "__main__":
     try:
         _config     : Config        = Config()
-        _client      : OpenSearch    = instantiate_open_search_client(_config)
+        _client     : OpenSearch    = instantiate_open_search_client(_config)
 
         _index_name : str           = _config.load_config(["database", "company_data", "index_name"])
         _index_body : dict          = _config.load_config(["database", "company_data", "index_body"])
