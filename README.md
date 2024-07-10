@@ -12,6 +12,13 @@ It stores financial documents and allows for quick retrieval of relevant data ba
 The project implements a web front interface enabling users to interact with the system by posing financial questions. 
 The LLM processes these questions, retrieves the necessary data from the created index, and generates detailed and accurate responses.
 
+
+## Solution's principle
+
+<p float="left">
+  <img src="/data/documentation/chart.png"    width="400" />
+</p>
+
 ## Setup Instructions
 
 ### Project Setup
