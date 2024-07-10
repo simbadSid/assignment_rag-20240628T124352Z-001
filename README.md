@@ -16,7 +16,7 @@ The LLM processes these questions, retrieves the necessary data from the created
 ## Solution's principle
 
 <p float="left">
-  <img src="/data/documentation/chart.png"    width="400" />
+  <img src="/data/documentation/chart.png"    width="600" />
 </p>
 
 ## Setup Instructions
