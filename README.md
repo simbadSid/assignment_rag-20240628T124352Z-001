@@ -156,6 +156,13 @@ To generate documentation from the code comments, follow these steps:
    mkdir -p doc && rm -rf doc/*
    ```
 
+2. Generate documentation**
+   ```sh
+   pydoc -w src
+   ```
+
+This will generate HTML documentation files from the Python docstrings in the `src` directory and place them in the `./doc` directory.
+
 ### Running Tests
 
 To run the tests, use `pytest`:
@@ -166,10 +173,3 @@ To run the tests, use `pytest`:
    ```
 #TODO specify the tests implemented
 
-
-### Generate documentation**
-   ```sh
-   pydoc -w src
-   ```
-
-This will generate HTML documentation files from the Python docstrings in the `src` directory and place them in the `./doc` directory.
