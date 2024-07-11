@@ -14,10 +14,15 @@ The LLM processes these questions, retrieves the necessary data from the created
 
 
 ## Solution's principle
-
-<p float="left">
-  <img src="/data/documentation/chart.png"    width="600" />
-</p>
+1. **Database of Knowledge**
+2. **Execution Flow for Request Answering**
+    <p float="left">
+      <img src="/data/documentation/execution_flow.png" width="600" />
+    </p>
+3. **Solution's Architecture**
+    <p float="left">
+      <img src="/data/documentation/solution_architecture.png"    width="600" />
+    </p>
 
 ## Setup Instructions
 
