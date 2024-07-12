@@ -12,6 +12,13 @@ from utils.log_management import log, log_error
 NO_DATE_FOUND_STRING = "NO DATE WAS FOUND IN THE USER REQUEST"
 
 
+class RequestContext:
+    def __init__(self, company_id: int = -1, date: str = "", query: str = ""):
+        self.company_id  : int = company_id
+        self.date        : str = date
+        self.query       : str = query
+
+
 class LlmRequestParser:
     """
     A class to parse user requests and infer dates using a pre-trained language model.
@@ -39,11 +46,8 @@ class LlmRequestParser:
             log(f"Setting the OpenAI API key ", "info")
             openai.api_key = config.load_config_secret_key(config_id_key='openai_api_key_path')
 
-            self.model_id: str = config.load_config(["llm_request_parser", "model"])
-
-            self.company_id: str = ""
-            self.date: int = -1
-            self.query: str = ""
+            self.model_id       : str               = config.load_config(["llm_request_parser", "model"])
+            self.request_context: RequestContext    = RequestContext()
 
             log(f"{self.__class__.__name__} initialized successfully", "info")
         except Exception as e:
@@ -87,9 +91,11 @@ class LlmRequestParser:
 
             log(f"The year was successfully inferred from the query: {response_date}", "info")
 
-            self.company_id = request.company_id
-            self.date = response_date
-            self.query = request.query
+            self.request_context = RequestContext(
+                company_id  = request.company_id,
+                date        = response_date,
+                query       = request.query
+            )
 
         except Exception as e:
             log_error(f"Failed to Infer the year from the query: {e}", exception_to_raise=RuntimeError)

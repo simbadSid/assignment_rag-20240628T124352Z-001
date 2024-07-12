@@ -23,6 +23,16 @@ def keep_only_keywords(query: str) -> list:
     return [item for item in keywords if item not in non_key_word_list]
 
 
+class RequestRelatedData:
+    """
+    Class that stores the data needed to answer a specific request
+    """
+    def __init__(self, company_data: list[str] = [], metrics_data: dict[str, dict] = {}, templates_data : dict = {}):
+        self.company_data   : list[str]         = company_data
+        self.metrics_data   : dict[str, dict]   = metrics_data
+        self.templates_data : dict              = templates_data
+
+
 class RagHandler:
     """
     Class to handle Retrieval-Augmented Generation (RAG) operations.
@@ -37,11 +47,9 @@ class RagHandler:
         try:
             log("Initializing RAG handler", "info")
 
-            self.client         : OpenSearch        = instantiate_open_search_client(config)
-            self.config         : Config            = config
-            self.company_data   : list[str]         = []
-            self.metrics_data   : dict[str, dict]   = {}
-            self.templates_data : dict              = {}
+            self.client                 : OpenSearch            = instantiate_open_search_client(config)
+            self.config                 : Config                = config
+            self.request_related_data   : RequestRelatedData    = RequestRelatedData()
 
             log("RAG handler initialized successfully", "info")
         except Exception as e:
@@ -55,11 +63,13 @@ class RagHandler:
             query_request : The query request received from the client and preparsed.
         """
 
-        log(f"{self.__class__.__name__}: Retrieving company-data, template and metrics related to query for company_id {query_request.company_id}: {query_request.query}", "info")
+        log(f"{self.__class__.__name__}: Retrieving company-data, template and metrics related to query for company_id {query_request.request_context.company_id}: {query_request.request_context.query}", "info")
 
-        self.company_data    = self.fetch_company_data(query_request)
-        self.metrics_data    = self.fetch_metrics(query_request)
-        self.templates_data  = self.fetch_templates(query_request)
+        self.request_related_data = RequestRelatedData(
+            company_data    = self.fetch_company_data(query_request),
+            metrics_data    = self.fetch_metrics(query_request),
+            templates_data  = self.fetch_templates(query_request)
+        )
 
         return
 
@@ -83,8 +93,8 @@ class RagHandler:
             "query": {
                 "bool": {
                     "should": [
-                        {"match": {"company_id"     : query_request.company_id}},
-                        {"match": {"current_period" : query_request.date}},
+                        {"match": {"company_id"     : query_request.request_context.company_id}},
+                        {"match": {"current_period" : query_request.request_context.date}},
 
                         # TODO Find the metric in the request and use it in requesting the index
                         #{"match": {"metric_name": keyword}} for keyword in keywords
@@ -112,7 +122,7 @@ class RagHandler:
         log("Fetch metrics data relative to the query", "info")
 
         metrics_index   : str       = self.config.load_config(["database", "metrics_data", "index_name"])
-        keywords        : list[str] = keep_only_keywords(query_request.query)
+        keywords        : list[str] = keep_only_keywords(query_request.request_context.query)
 
         # Construct a bool query to match any of the keywords in the metric_name field
         body = {
@@ -145,7 +155,7 @@ class RagHandler:
 
         templates_index: str = self.config.load_config(["database", "templates_data", "index_name"])
 
-        embedding = get_embedding(self.config, query_request.query)
+        embedding = get_embedding(self.config, query_request.request_context.query)
 
         knn_param = 5 #TODO optimize
 

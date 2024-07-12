@@ -4,7 +4,7 @@
 		"metrics_data_path"					: "data/metrics/metrics.json",
 		"templates_data_path"				: "data/templates/templates.json",
 
-		"test_questions_doc_path"			: "test/data/input/test_questions.docx",
+		"test_requests_path"				: "test/data/input/test_requests.docx",
 
 		"openai_api_key_path"				: "config/keys/openai_api_key.txt",
 
@@ -48,19 +48,19 @@
 						"company_id"		: {"type": "integer"},
 						"raw_data_line"		: {"type": "text"},
 
-						"current_period"    :   {"type": "text"},
-						"metric_name"       :   {"type": "text"},
-						"current_value"     :   {"type": "text"},
-						"last_period"       :   {"type": "text"},
-						"last_value"        :   {"type": "text"},
-						"increase_decrease_nochange"      :   {"type": "text"},
-						"pct_change"        :   {"type": "text"},
-						"increased_decreased_remainedunchanged" :   {"type": "text"},
-						"timeframe"         :   {"type": "text"},
-						"_for_the_metric"   :   {"type": "text"},
-						"last_snapshot_date":   {"type": "text"},
-						"strong_weak_at_market_average"   :   {"type": "text"},
-						"percentile"        :   {"type": "text"}
+						"current_period"    : {"type": "text"},
+						"metric_name"       : {"type": "text"},
+						"current_value"     : {"type": "text"},
+						"last_period"       : {"type": "text"},
+						"last_value"        : {"type": "text"},
+						"increase_decrease_nochange": {"type": "text"},
+						"pct_change"        : {"type": "text"},
+						"increased_decreased_remainedunchanged" : {"type": "text"},
+						"timeframe"         : {"type": "text"},
+						"_for_the_metric"   : {"type": "text"},
+						"last_snapshot_date": {"type": "text"},
+						"strong_weak_at_market_average": {"type": "text"},
+						"percentile"        : {"type": "text"}
 					}
 				}
 			}
