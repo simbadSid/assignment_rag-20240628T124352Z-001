@@ -77,7 +77,7 @@ Edit the `config/config.json` file with your specific paths, database credential
 
 ### Database Creation and Population
 
-1. **Run OpenSearch using Docker**
+1. **Run the OpenSearch Docker Container**
    ```sh
    python src/db_scripts/run_opensearch_container.py
    ```
@@ -88,24 +88,17 @@ Edit the `config/config.json` file with your specific paths, database credential
    curl -X GET -k -u admin:"$password" https://localhost:9200/
    ```
 
-3. **Create the OpenSearch index**
+3. **Create the OpenSearch indexes**
    ```sh
    python src/db_scripts/create_index_script.py
    ```
 
-4. **Upload documents to the index**
+4. **Populate the Indexes with Learning Data**
    ```sh
    python src/db_scripts/update_index_script.py
    ```
 
-### Web Front
-
-1. **Start the web application**
-   ```sh
-   uvicorn src.web_app.app:app --reload
-   ```
-
-### Docker Setup
+### Web Front Docker Setup
 
 1. **Build the Docker image**
    ```sh
