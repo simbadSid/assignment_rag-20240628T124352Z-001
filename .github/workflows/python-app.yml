@@ -43,4 +43,7 @@ jobs:
         echo "PYTHONPATH=$(pwd)" >> $GITHUB_ENV
     - name: Test with pytest
       run: |
+        pytest test/src/test_db_scripts.py
         pytest test/src/test_llm_request_parser.py
+        pytest test/src/test_llm_request_parser.py
+        pytest test/src/test_web_app.py
