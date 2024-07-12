@@ -5,11 +5,9 @@ name: Python application
 
 on:
   push:
-    branches:
-      - "**"
+    branches: [ "main" ]
   pull_request:
-    branches:
-      - "**"
+    branches: [ "main" ]
 
 permissions:
   contents: read
@@ -31,7 +29,6 @@ jobs:
 #        python -m venv env
 #        source env/bin/activate
         python -m pip install --upgrade pip
-
         pip install -e .
         pip install flake8 pytest
 
