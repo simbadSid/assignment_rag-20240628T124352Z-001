@@ -19,14 +19,17 @@ def instantiate_open_search_client(config: Config) -> OpenSearch:
     """
     log("Creating OpenSearch client", "info")
 
-    open_search_url         = config.load_config(["open_search", "open_search_url"])
-    open_search_port        = config.load_config(["open_search", "open_search_port"])
-    open_search_admin_login = config.load_config(["open_search", "open_search_admin_login"])
-    open_search_admin_pwd   = config.load_config_secret_key(config_id_key='opensearch_admin_pwd_path')
+    open_search_client_config   = config.load_config(["open_search", "open_search_client_config"])
+    open_search_port            = config.load_config(["open_search", "open_search_port"])
+    open_search_admin_login     = config.load_config(["open_search", "open_search_admin_login"])
+    open_search_admin_pwd       = config.load_config_secret_key(config_id_key='opensearch_admin_pwd_path')
+
+    # Format the opensearch config
+    hosts                                   = open_search_client_config["hosts"]
+    open_search_client_config["hosts"]      = [f"{hosts[0]}:{open_search_port}"]
+    open_search_client_config["http_auth"]  = (open_search_admin_login, open_search_admin_pwd)
 
     return OpenSearch(
-        # TODO            DB username and password from config.json,
-        hosts           = [f"{open_search_url}:{open_search_port}"],
         http_auth       = (open_search_admin_login, open_search_admin_pwd),
         use_ssl         = True,
         verify_certs    = False,

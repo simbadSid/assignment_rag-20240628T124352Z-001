@@ -20,10 +20,15 @@
 		"model"								: "sentence-transformers/all-MiniLM-L6-v2"
 	},
 	"open_search": {
-		"open_search_url"					: "https://localhost",
+		"open_search_client_config":{
+			"hosts"          				: ["http://localhost"],
+			"use_ssl"         				: "True",
+			"verify_certs"    				: "False",
+			"ssl_show_warn"   				: "False"
+		},
+		"open_search_admin_login"			: "admin",
 		"open_search_port"					: "9200",
 		"open_search_transport_port"		: "9600",
-		"open_search_admin_login"			: "admin",
 		"open_search_docker_image_name"		: "opensearchproject/opensearch:latest",
 		"open_search_docker_container_name"	: "opensearch",
 		"open_search_docker_configs"		: {
