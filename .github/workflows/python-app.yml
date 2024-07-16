@@ -3,11 +3,14 @@
 
 name: Python application
 
+
 on:
   push:
-    branches: [ "master" ]
+    branches:
+      - "**" # This will match any branch
   pull_request:
-    branches: [ "master" ]
+    branches:
+      - "**" # This will match any branch
 
 permissions:
   contents: read
