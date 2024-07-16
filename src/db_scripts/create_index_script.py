@@ -45,11 +45,13 @@ def create_index(client: OpenSearch, index_name: str, index_body: dict) -> None:
     Returns:
         None
     """
-    log(f"\n\nCreating index: {index_name}", "info")
+    log(f"Creating index: {index_name}", "info")
 
-    client.indices.create(index=index_name, body=index_body)
-
-    log(f"Index name \"{index_name}\" created successfully", "info")
+    if client.indices.exists(index_name):
+        log(f"Index name \"{index_name}\" exists already", "info")
+    else:
+        client.indices.create(index=index_name, body=index_body)
+        log(f"Index name \"{index_name}\" created successfully", "info")
 
 if __name__ == "__main__":
     try:

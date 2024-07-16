@@ -3,7 +3,6 @@ import json
 from opensearchpy import OpenSearch
 
 from db_scripts.create_index_script import create_index, instantiate_open_search_client
-from db_scripts.run_opensearch_container import run_opensearch_container
 from db_scripts.update_index_script import upload_company_data, upload_metrics_and_templates_data
 from utils.log_management import log
 from utils.config_management import Config

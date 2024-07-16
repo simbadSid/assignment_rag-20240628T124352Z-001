@@ -24,6 +24,7 @@ def get_user_request_list() -> list[str]:
             continue
         # Extend the lines list with the lines from the current paragraph
         user_request_lines.extend(para_lines)
+        break
 
     return user_request_lines
 
