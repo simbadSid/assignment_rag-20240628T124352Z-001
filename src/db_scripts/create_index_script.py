@@ -26,8 +26,11 @@ def instantiate_open_search_client(config: Config) -> OpenSearch:
 
     # Format the opensearch config
     hosts                                   = open_search_client_config["hosts"]
-    open_search_client_config["hosts"]      = [f"{hosts[0]}:{open_search_port}"]
+    hosts                                   = [f"{hosts[0]}:{open_search_port}"]
+    open_search_client_config["hosts"]      = hosts
     open_search_client_config["http_auth"]  = (open_search_admin_login, open_search_admin_pwd)
+
+    log(f"Trying to create client: {hosts}", "info")
 
     return OpenSearch(
         http_auth       = (open_search_admin_login, open_search_admin_pwd),
