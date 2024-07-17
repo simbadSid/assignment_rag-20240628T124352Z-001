@@ -22,10 +22,11 @@ def run_opensearch_container(config: Config):
 
     open_search_docker_image_name       = config.load_config(["open_search", "open_search_docker_image_name"])
     open_search_docker_container_name   = config.load_config(["open_search", "open_search_docker_container_name"])
-    open_search_port                    = config.load_config(["open_search", "open_search_port"])
+    open_search_host: dict              = config.load_config(["open_search", "open_search_client_config", "hosts"])[0]
     open_transport_search_port          = config.load_config(["open_search", "open_search_transport_port"])
     open_search_docker_configs          = config.load_config(["open_search", "open_search_docker_configs"])
     open_search_admin_pwd               = config.load_config_secret_key(config_id_key='opensearch_admin_pwd_path')
+    open_search_port                    = open_search_host["port"]
 
     container_config = []
     for k, v in open_search_docker_configs.items():

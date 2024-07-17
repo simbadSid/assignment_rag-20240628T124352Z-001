@@ -21,14 +21,18 @@
 	},
 	"open_search": {
 		"open_search_client_config":{
-			"hosts"          				: ["http://localhost"],
-			"use_ssl"         				: "True",
-			"verify_certs"    				: "False",
-			"ssl_show_warn"   				: "False"
+			"hosts"          				:
+			[{
+				"host"						:"localhost",
+				"port"						: 9200,
+            	"scheme"					: "http"
+			}],
+			"use_ssl"         				: false,
+			"verify_certs"    				: false,
+			"ssl_show_warn"   				: false
 		},
 		"open_search_admin_login"			: "admin",
-		"open_search_port"					: "9200",
-		"open_search_transport_port"		: "9600",
+		"open_search_transport_port"		: 9600,
 		"open_search_docker_image_name"		: "opensearchproject/opensearch:latest",
 		"open_search_docker_container_name"	: "opensearch",
 		"open_search_docker_configs"		: {

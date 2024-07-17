@@ -3,7 +3,7 @@ This module provides functionality for creating OpenSearch indices.
 The script allows to create and configure indices to store the company-related data, templates and metrics.
 """
 
-from opensearchpy import OpenSearch
+from opensearchpy import OpenSearch, RequestsHttpConnection
 from utils.config_management import Config
 from utils.log_management import log, log_error
 
@@ -20,24 +20,17 @@ def instantiate_open_search_client(config: Config) -> OpenSearch:
     log("Creating OpenSearch client", "info")
 
     open_search_client_config   = config.load_config(["open_search", "open_search_client_config"])
-    open_search_port            = config.load_config(["open_search", "open_search_port"])
     open_search_admin_login     = config.load_config(["open_search", "open_search_admin_login"])
     open_search_admin_pwd       = config.load_config_secret_key(config_id_key='opensearch_admin_pwd_path')
 
     # Format the opensearch config
-    hosts                                   = open_search_client_config["hosts"]
-    hosts                                   = [f"{hosts[0]}:{open_search_port}"]
-    open_search_client_config["hosts"]      = hosts
     open_search_client_config["http_auth"]  = (open_search_admin_login, open_search_admin_pwd)
 
-    log(f"Trying to create client: {hosts}", "info")
+    # TODO to be integrated into the config file
+    from opensearchpy import RequestsHttpConnection
+    open_search_client_config["connection_class"] = RequestsHttpConnection
 
-    return OpenSearch(
-        http_auth       = (open_search_admin_login, open_search_admin_pwd),
-        use_ssl         = True,
-        verify_certs    = False,
-        ssl_show_warn   = False,
-    )
+    return OpenSearch(**open_search_client_config)
 
 def create_index(client: OpenSearch, index_name: str, index_body: dict) -> None:
     """
