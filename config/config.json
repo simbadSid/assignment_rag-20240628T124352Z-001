@@ -8,6 +8,7 @@
 
 		"openai_api_key_path"				: "config/keys/openai_api_key.txt",
 
+		"opensearch_custom_config_path"		: "config/custom_opensearch.yml",
 		"opensearch_admin_pwd_path"			: "config/keys/opensearch_admin_password.txt"
 	},
 	"llm_request_parser": {
@@ -34,12 +35,7 @@
 		"open_search_admin_login"			: "admin",
 		"open_search_transport_port"		: 9600,
 		"open_search_docker_image_name"		: "opensearchproject/opensearch:latest",
-		"open_search_docker_container_name"	: "opensearch",
-		"open_search_docker_configs"		: {
-			"cluster.name"					: "docker-cluster",
-			"network.host"					: "0.0.0.0",
-			"discovery.type"				: "single-node"
-		}
+		"open_search_docker_container_name"	: "opensearch"
 	},
 	"database": {
 		"username"							: "your_username",
