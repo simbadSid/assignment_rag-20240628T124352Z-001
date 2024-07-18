@@ -39,7 +39,6 @@ def run_opensearch_container(config: Config):
             "--name",   open_search_docker_container_name,
             "-p",       f"{open_search_port}:{open_search_port}",
             "-p",       f"{open_transport_search_port}:{open_transport_search_port}",
-            "-e",       "discovery.type=single-node",
             "-e",       f"OPENSEARCH_INITIAL_ADMIN_PASSWORD={open_search_admin_pwd}",
             "-e",       "OPENSEARCH_JAVA_OPTS=-Dopensearch.config=/usr/share/opensearch/config/custom_opensearch.yml",
         ]

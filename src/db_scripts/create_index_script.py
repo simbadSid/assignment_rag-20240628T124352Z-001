@@ -3,9 +3,10 @@ This module provides functionality for creating OpenSearch indices.
 The script allows to create and configure indices to store the company-related data, templates and metrics.
 """
 
-from opensearchpy import OpenSearch, RequestsHttpConnection
+from opensearchpy import OpenSearch
 from utils.config_management import Config
 from utils.log_management import log, log_error
+
 
 def instantiate_open_search_client(config: Config) -> OpenSearch:
     """
