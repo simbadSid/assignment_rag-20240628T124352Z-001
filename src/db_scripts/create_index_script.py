@@ -27,10 +27,6 @@ def instantiate_open_search_client(config: Config) -> OpenSearch:
     # Format the opensearch config
     open_search_client_config["http_auth"]  = (open_search_admin_login, open_search_admin_pwd)
 
-    # TODO to be integrated into the config file
-    from opensearchpy import RequestsHttpConnection
-    open_search_client_config["connection_class"] = RequestsHttpConnection
-
     return OpenSearch(**open_search_client_config)
 
 def create_index(client: OpenSearch, index_name: str, index_body: dict) -> None:

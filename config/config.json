@@ -25,11 +25,11 @@
 			[{
 				"host"						:"localhost",
 				"port"						: 9200,
-            	"scheme"					: "http"
+            	"scheme"					: "https"
 			}],
-			"use_ssl"         				: false,
-			"verify_certs"    				: false,
-			"ssl_show_warn"   				: false
+			"use_ssl"         				: true,
+			"verify_certs"    				: true,
+			"ssl_show_warn"   				: true
 		},
 		"open_search_admin_login"			: "admin",
 		"open_search_transport_port"		: 9600,
