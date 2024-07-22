@@ -20,7 +20,7 @@ log("Web application initialized", "info")
 
 
 @app.post("/query")
-def query(request: QueryRequest) -> dict[str, str]:
+def query(request: QueryRequest) -> dict:
     """
     Handle incoming queries to the /query endpoint.
 

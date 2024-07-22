@@ -28,8 +28,8 @@
             	"scheme"					: "https"
 			}],
 			"use_ssl"         				: true,
-			"verify_certs"    				: true,
-			"ssl_show_warn"   				: true
+			"verify_certs"    				: false,
+			"ssl_show_warn"   				: false
 		},
 		"open_search_admin_login"			: "admin",
 		"open_search_transport_port"		: 9600,

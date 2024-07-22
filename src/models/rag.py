@@ -27,7 +27,7 @@ class RequestRelatedData:
     """
     Class that stores the data needed to answer a specific request
     """
-    def __init__(self, company_data: list[str] = [], metrics_data: dict[str, dict] = {}, templates_data : dict = {}):
+    def __init__(self, company_data: list = [], metrics_data: dict = {}, templates_data : dict = {}):
         self.company_data   : list[str]         = company_data
         self.metrics_data   : dict[str, dict]   = metrics_data
         self.templates_data : dict              = templates_data
@@ -73,7 +73,7 @@ class RagHandler:
 
         return
 
-    def fetch_company_data(self, query_request: LlmRequestParser) -> list[str]:
+    def fetch_company_data(self, query_request: LlmRequestParser) -> list:
         """
         Fetch the company-related data from OpenSearch.
         Optimization: extracts from the query some data (period, metric, etc) and uses them to retrieve the company-related data from the index table.
@@ -107,7 +107,7 @@ class RagHandler:
         response = [hit["_source"] for hit in response["hits"]["hits"]]
         return [data_dict['raw_data_line'] for data_dict in response]
 
-    def fetch_metrics(self, query_request: LlmRequestParser) -> dict[str, dict]:
+    def fetch_metrics(self, query_request: LlmRequestParser) -> dict:
         """
         Fetch from the input  index tables the metrics related to the query from OpenSearch using
         keyword matching between the query and the metric_name parameter of the metrics table.
